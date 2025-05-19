@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
+const authRoutes = require('./routes/authRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 404;
@@ -26,6 +27,9 @@ app.get("/api/test", (req, res) => {
   res.status(200).json({ message: "API funzionante correttamente", database: "Connesso" });
 });
 
+// Rotte di autenticazione
+app.use('/api/auth', authRoutes);
+
 // API route di base
 app.get("/api", (req, res) => {
   res.status(200).json({
@@ -33,7 +37,11 @@ app.get("/api", (req, res) => {
     status: "online",
     endpoints: [
       { path: "/info", description: "Informazioni sul progetto" },
-      { path: "/api/test", description: "Test della connessione al database" }
+      { path: "/api/test", description: "Test della connessione al database" },
+      { path: "/api/auth/register", description: "Registrazione utente" },
+      { path: "/api/auth/login", description: "Login utente" },
+      { path: "/api/auth/profile", description: "Profilo utente (richiede autenticazione)" },
+      { path: "/api/auth/admin", description: "Area admin (richiede ruolo admin)" }
     ]
   });
 });
