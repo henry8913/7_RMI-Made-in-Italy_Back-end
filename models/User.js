@@ -20,6 +20,16 @@ const userSchema = new mongoose.Schema({
     required: [true, 'La password è obbligatoria'],
     minlength: [6, 'La password deve contenere almeno 6 caratteri']
   },
+  googleId: {
+    type: String,
+    unique: true,
+    sparse: true
+  },
+  authProvider: {
+    type: String,
+    enum: ['local', 'google'],
+    default: 'local'
+  },
   ruolo: {
     type: String,
     enum: ['client', 'admin'],
@@ -33,7 +43,6 @@ const userSchema = new mongoose.Schema({
 
 // Middleware per hashare la password prima del salvataggio
 userSchema.pre('save', async function(next) {
-  // Esegui l'hash solo se la password è stata modificata o è nuova
   if (!this.isModified('password')) return next();
   
   try {

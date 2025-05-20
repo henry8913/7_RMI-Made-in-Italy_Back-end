@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 // Funzione per generare il token JWT
 const generateToken = (userId) => {
   return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
-    expiresIn: '30d' // Il token scade dopo 30 giorni
+    expiresIn: '30d'
   });
 };
 
@@ -13,22 +13,25 @@ exports.register = async (req, res) => {
   try {
     const { nome, email, password, adminSecretKey } = req.body;
     
-    // Verifica se l'utente esiste già
     const userExists = await User.findOne({ email });
     if (userExists) {
+      if (userExists.authProvider === 'google') {
+        return res.status(400).json({ 
+          message: 'Utente già registrato con questa email tramite Google. Utilizza il pulsante "Accedi con Google"',
+          isGoogleAccount: true 
+        });
+      }
       return res.status(400).json({ message: 'Utente già registrato con questa email' });
     }
     
-    // Prepara i dati utente
     const userData = {
       nome,
       email,
-      password
+      password,
+      authProvider: 'local'
     };
     
-    // Verifica se l'utente sta tentando di registrarsi come admin
     if (adminSecretKey) {
-      // Verifica che il codice segreto sia corretto
       if (adminSecretKey === process.env.ADMIN_SECRET_KEY) {
         userData.ruolo = 'admin';
       } else {
@@ -36,18 +39,16 @@ exports.register = async (req, res) => {
       }
     }
     
-    // Crea il nuovo utente
     const user = await User.create(userData);
     
-    // Genera il token JWT
     const token = generateToken(user._id);
     
-    // Restituisci i dati dell'utente (esclusa la password) e il token
     res.status(201).json({
       _id: user._id,
       nome: user.nome,
       email: user.email,
       ruolo: user.ruolo,
+      authProvider: user.authProvider,
       token
     });
   } catch (error) {
@@ -61,27 +62,37 @@ exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;
     
-    // Trova l'utente tramite email
     const user = await User.findOne({ email });
     if (!user) {
       return res.status(401).json({ message: 'Email o password non validi' });
     }
     
-    // Verifica la password
+    if (user.authProvider === 'google') {
+      const token = generateToken(user._id);
+      
+      return res.status(200).json({
+        _id: user._id,
+        nome: user.nome,
+        email: user.email,
+        ruolo: user.ruolo,
+        authProvider: user.authProvider,
+        token
+      });
+    }
+    
     const isPasswordValid = await user.comparePassword(password);
     if (!isPasswordValid) {
       return res.status(401).json({ message: 'Email o password non validi' });
     }
     
-    // Genera il token JWT
     const token = generateToken(user._id);
     
-    // Restituisci i dati dell'utente (esclusa la password) e il token
     res.status(200).json({
       _id: user._id,
       nome: user.nome,
       email: user.email,
       ruolo: user.ruolo,
+      authProvider: user.authProvider,
       token
     });
   } catch (error) {
@@ -97,9 +108,68 @@ exports.getProfile = async (req, res) => {
     if (!user) {
       return res.status(404).json({ message: 'Utente non trovato' });
     }
-    res.status(200).json(user);
+    res.status(200).json({
+      _id: user._id,
+      nome: user.nome,
+      email: user.email,
+      ruolo: user.ruolo,
+      authProvider: user.authProvider,
+      googleId: user.googleId
+    });
   } catch (error) {
     console.error('Errore durante il recupero del profilo:', error);
     res.status(500).json({ message: 'Errore durante il recupero del profilo', error: error.message });
+  }
+};
+
+// Callback per l'autenticazione Google
+exports.googleAuthCallback = (req, res) => {
+  try {
+    // L'utente è già autenticato da passport a questo punto
+    const token = generateToken(req.user._id);
+    
+    res.status(200).json({
+      _id: req.user._id,
+      nome: req.user.nome,
+      email: req.user.email,
+      ruolo: req.user.ruolo,
+      authProvider: req.user.authProvider,
+      token
+    });
+    
+    // Nota: La precedente implementazione reindirizzava al frontend
+    // const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
+    // res.redirect(`${frontendUrl}/auth/google/success?token=${token}`);
+  } catch (error) {
+    console.error('Errore durante il callback Google:', error);
+    res.status(500).json({ 
+      message: 'Errore durante l\'autenticazione con Google', 
+      error: error.message 
+    });
+  }
+};
+
+// Login con Google
+exports.googleLogin = async (req, res) => {
+  try {
+    const { email } = req.body;
+    
+    const user = await User.findOne({ email, authProvider: 'google' });
+    if (!user) {
+      return res.status(401).json({ 
+        message: 'Nessun account Google trovato con questa email. Effettua prima la registrazione con Google.',
+        isGoogleAccount: false
+      });
+    }
+    
+    // Nota: questo endpoint non verrà mai raggiunto direttamente,
+    // poiché il frontend dovrebbe reindirizzare direttamente a /api/auth/google
+    res.status(200).json({ 
+      message: 'Utilizza il pulsante "Accedi con Google" per effettuare il login',
+      redirectTo: '/api/auth/google'
+    });
+  } catch (error) {
+    console.error('Errore durante il login con Google:', error);
+    res.status(500).json({ message: 'Errore durante il login con Google', error: error.message });
   }
 };
