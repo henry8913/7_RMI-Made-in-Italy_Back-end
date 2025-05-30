@@ -1,0 +1,203 @@
+[
+  {
+    "nome": "Consegna a Domicilio Premium",
+    "descrizione": "Servizio esclusivo di consegna a domicilio per la tua auto RESTOMOD. Trasporto in bisarca chiusa, consegna in tutta Italia, controllo pre-consegna e briefing personalizzato all'arrivo.",
+    "prezzo": 2500,
+    "valuta": "EUR",
+    "caratteristiche": [
+      "Trasporto in bisarca chiusa per massima sicurezza",
+      "Consegna in tutta Italia, isole comprese",
+      "Controllo tecnico pre-consegna",
+      "Briefing personalizzato all'arrivo",
+      "Assicurazione completa inclusa"
+    ],
+    "immagine": "https://data2.nssmag.com/cdn-cgi/image/fit=crop,width=1440,height=1800/images/galleries/39397/cover-luxury-cars.jpg",
+    "durata": "Servizio unico al momento dell'acquisto",
+    "attivo": true,
+    "stripeProductId": null,
+    "stripePriceId": null,
+    "ordini": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "nome": "Manutenzione Programmata Premium",
+    "descrizione": "Servizio esclusivo di manutenzione programmata per la tua auto RESTOMOD, con controlli periodici, sostituzione di componenti soggetti a usura e aggiornamenti software.",
+    "prezzo": 1200,
+    "valuta": "EUR",
+    "caratteristiche": [
+      "Controlli periodici ogni 12 mesi o 10.000 km",
+      "Sostituzione di olio motore, filtri e componenti usurati",
+      "Aggiornamenti software e calibrazione centraline",
+      "Ispezione completa del veicolo con report dettagliato",
+      "Servizio di ritiro e riconsegna a domicilio incluso"
+    ],
+    "immagine": "https://manifatturaautomobilitorino.com/img/services/MAT_Services_Production.jpg",
+    "durata": "12 mesi",
+    "attivo": true,
+    "stripeProductId": null,
+    "stripePriceId": null,
+    "ordini": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "nome": "Detailing Estetico Professionale",
+    "descrizione": "Servizio esclusivo di detailing estetico per la tua auto RESTOMOD, con pulizia approfondita, lucidatura, trattamento nano-ceramico e rigenerazione fari.",
+    "prezzo": 1800,
+    "valuta": "EUR",
+    "caratteristiche": [
+      "Pulizia approfondita degli interni con prodotti specifici",
+      "Lucidatura professionale della carrozzeria",
+      "Applicazione di trattamento protettivo nano-ceramico",
+      "Rigenerazione dei fari per una visibilità ottimale",
+      "Protezione delle superfici contro agenti atmosferici e contaminanti"
+    ],
+    "immagine": "https://www.raynofilm.com/wp-content/uploads/shutterstock_1681005784-768x512.jpg",
+    "durata": "Servizio unico al momento dell'acquisto",
+    "attivo": true,
+    "stripeProductId": null,
+    "stripePriceId": null,
+    "ordini": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "nome": "Upgrade Tecnologico Integrato",
+    "descrizione": "Servizio esclusivo di aggiornamento tecnologico per la tua auto RESTOMOD, con installazione di sistemi di infotainment moderni, connettività avanzata e assistenti alla guida.",
+    "prezzo": 2200,
+    "valuta": "EUR",
+    "caratteristiche": [
+      "Sistema di infotainment touchscreen con navigazione GPS",
+      "Connettività Bluetooth e integrazione smartphone (Apple CarPlay/Android Auto)",
+      "Telecamera posteriore e sensori di parcheggio",
+      "Sistema audio premium con amplificatore e altoparlanti di alta qualità",
+      "Installazione discreta per mantenere l'estetica originale"
+    ],
+    "immagine": "https://www.livemilano.it/wp-content/uploads/2023/07/Eccentrica_12-990x717.jpg",
+    "durata": "Servizio unico al momento dell'acquisto",
+    "attivo": true,
+    "stripeProductId": null,
+    "stripePriceId": null,
+    "ordini": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "nome": "Estensione Garanzia Premium 24 Mesi",
+    "descrizione": "Servizio esclusivo di estensione della garanzia per la tua auto RESTOMOD, con copertura completa su motore, trasmissione e componenti elettronici, assistenza stradale 24/7 in tutta Europa e supporto tecnico prioritario.",
+    "prezzo": 3000,
+    "valuta": "EUR",
+    "caratteristiche": [
+      "Copertura completa su motore, trasmissione e componenti elettronici",
+      "Assistenza stradale 24/7 in tutta Europa",
+      "Supporto tecnico prioritario con risposta entro 24 ore",
+      "Servizio di ritiro e riconsegna in caso di interventi",
+      "Possibilità di trasferimento della garanzia in caso di vendita del veicolo"
+    ],
+    "immagine": "https://images-porsche.imgix.net/-/media/50988A4E10964057BA44200147B7FC25_3D4E8A2BD0E54343A7788464FFDB0A82_017-text-media-content-4-3-warranty-types-01?w=1759&q=85&auto=format",
+    "durata": "24 mesi",
+    "attivo": true,
+    "stripeProductId": null,
+    "stripePriceId": null,
+    "ordini": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "nome": "Tour Esperienziale in Auto d'Epoca",
+    "descrizione": "Un'esperienza esclusiva alla guida di un'auto d'epoca attraverso paesaggi suggestivi italiani, con tappe enogastronomiche e servizio fotografico professionale.",
+    "prezzo": 1500,
+    "valuta": "EUR",
+    "caratteristiche": [
+      "Noleggio di un'auto d'epoca per la durata del tour",
+      "Itinerario personalizzato con tappe enogastronomiche",
+      "Guida esperta al seguito",
+      "Servizio fotografico professionale durante il tour"
+    ],
+    "immagine": "https://www.liveinup.it/uploads/categories/noleggio-auto-depoca.jpg",
+    "durata": "1 giornata",
+    "attivo": true,
+    "stripeProductId": null,
+    "stripePriceId": null,
+    "ordini": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "nome": "Pacchetto Regalo 'Passione Restomod'",
+    "descrizione": "Cofanetto regalo ideale per appassionati, include test drive, visita all'officina e merchandising esclusivo.",
+    "prezzo": 300,
+    "valuta": "EUR",
+    "caratteristiche": [
+      "Test drive di 1 ora con un modello a scelta",
+      "Visita guidata all'officina con spiegazione dei processi di restomod",
+      "Gadget esclusivi: cappellino, t-shirt e portachiavi brandizzati"
+    ],
+    "immagine": "https://leggendauto.com/wp-content/uploads/2021/08/ares-design-panther-progettouno.png",
+    "durata": "Mezza giornata",
+    "attivo": true,
+    "stripeProductId": null,
+    "stripePriceId": null,
+    "ordini": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "nome": "Assicurazione Kasko per Auto d'Epoca",
+    "descrizione": "Copertura assicurativa completa per auto restomod, inclusi danni accidentali, furto e atti vandalici.",
+    "prezzo": 2000,
+    "valuta": "EUR",
+    "caratteristiche": [
+      "Copertura totale per 12 mesi",
+      "Assistenza stradale 24/7",
+      "Servizio di auto sostitutiva in caso di sinistro"
+    ],
+    "immagine": "https://dimages2.gazzettaobjects.it/uploads/2025/04/09/67f67d162ab26.jpeg",
+    "durata": "12 mesi",
+    "attivo": true,
+    "stripeProductId": null,
+    "stripePriceId": null,
+    "ordini": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "nome": "Servizio di Personalizzazione Interni",
+    "descrizione": "Personalizzazione degli interni dell'auto con materiali pregiati e design su misura, mantenendo lo stile vintage.",
+    "prezzo": 2500,
+    "valuta": "EUR",
+    "caratteristiche": [
+      "Scelta di materiali: pelle, alcantara, legno pregiato",
+      "Design personalizzato in collaborazione con il cliente",
+      "Installazione artigianale da parte di esperti"
+    ],
+    "immagine": "https://totemautomobili.com/image/gt-electric/gallery/7.jpg",
+    "durata": "2 settimane (tempo di realizzazione)",
+    "attivo": true,
+    "stripeProductId": null,
+    "stripePriceId": null,
+    "ordini": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "nome": "Corso di Guida per Auto d'Epoca",
+    "descrizione": "Corso dedicato a chi desidera apprendere le tecniche di guida specifiche per le auto d'epoca, migliorando la sicurezza e il piacere di guida.",
+    "prezzo": 600,
+    "valuta": "EUR",
+    "caratteristiche": [
+      "Sessioni teoriche e pratiche con istruttori qualificati",
+      "Focus su tecniche di frenata, cambio manuale e controllo del veicolo",
+      "Attestato di partecipazione finale"
+    ],
+    "immagine": "https://www.asifed.it/wp-content/uploads/2022/11/ASI-in-Pista-2022_parata-3.jpg",
+    "durata": "1 giornata",
+    "attivo": true,
+    "stripeProductId": null,
+    "stripePriceId": null,
+    "ordini": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  }
+]

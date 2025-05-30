@@ -1,0 +1,230 @@
+[
+  {
+    "nome": "Automobili Amos",
+    "descrizione": "Automobili Amos è una startup italiana fondata nel 2016 da Eugenio Amos e Carlo Borromeo, con l'obiettivo di reinterpretare in chiave moderna e artigianale la leggendaria Lancia Delta Integrale. Il loro primo progetto, la Delta Futurista, è una rivisitazione esclusiva e limitata dell'iconico modello, realizzata con materiali pregiati e tecnologie avanzate.",
+    "logo": "https://automobiliamos.it/cdn/shop/files/logo-AA-black_120x@2x.png?v=1614292841",
+    "storia": "Fondata nel 2016, Automobili Amos nasce dalla passione di Eugenio Amos per le auto classiche e le competizioni. Con la collaborazione del designer Carlo Borromeo, l'azienda ha dato vita alla Delta Futurista, un restomod che unisce estetica retrò e prestazioni moderne. La produzione è limitata a pochi esemplari, ciascuno realizzato su misura per il cliente.",
+    "sede": "Via Morazzone, 2 - 21100 Varese, Italia",
+    "annoFondazione": 2016,
+    "sito": "https://automobiliamos.it",
+    "contatti": {
+      "email": "shop@automobiliamos.it",
+      "telefono": null
+    },
+    "immagini": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0178/5698/7236/files/aa-founders-1.jpg?v=1624522535",
+        "alt": "Showroom di Automobili Amos a Varese"
+      }
+    ]
+  },
+  {
+    "nome": "Kimera Automobili",
+    "descrizione": "Kimera Automobili è una casa automobilistica italiana fondata dall'ex pilota di rally Luca Betti. L'azienda si dedica alla reinterpretazione di iconiche auto da corsa italiane, combinando design classico e tecnologie moderne. Il loro primo progetto, lanciato nel 2021, è la EVO37, una rivisitazione moderna della Lancia 037.",
+    "logo": "https://static.wixstatic.com/media/292dbb_dc6f66f3aea9463eb800ba064b351305~mv2.png/v1/fill/w_160,h_252,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ICONA_Yellow.png",
+    "storia": "Fondata nel 2020 a Cuneo da Luca Betti, Kimera Automobili nasce con l'obiettivo di rendere omaggio alle leggendarie auto da rally italiane degli anni '80. Collaborando con ingegneri e tecnici originali della Lancia, l'azienda ha creato la EVO37, una serie limitata di 37 esemplari che unisce estetica classica e componenti all'avanguardia. Successivamente, Kimera ha presentato la EVO38 e la K39, continuando la tradizione di reinterpretare modelli iconici.",
+    "sede": "Via Basse di Chiusano, 8 – 12100 Cuneo, Italia",
+    "annoFondazione": 2020,
+    "sito": "https://kimera-automobili.com",
+    "contatti": {
+      "email": "info@kimera-automobili.com",
+      "telefono": "+39 0171 500801"
+    },
+    "immagini": [
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_06d7d6f497764757adc22700efde37f2~mv2.jpg/v1/fill/w_2000,h_1016,al_c,q_90,enc_avif,quality_auto/___Fuoriconcorso-_quentin_decorps-1.jpg",
+        "alt": "Kimera EVO37 in showroom"
+      }
+    ]
+  },
+  {
+    "nome": "Totem Automobili",
+    "descrizione": "Totem Automobili è una startup italiana fondata nel 2018 da Riccardo Quaggio, con l'obiettivo di reinterpretare in chiave moderna e artigianale la leggendaria Alfa Romeo Giulia GT. L'azienda combina design classico e tecnologie avanzate per creare vetture uniche e performanti.",
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQGpXl-Myj5nLg/company-logo_200_200/company-logo_200_200/0/1646842871934/totem_automobili_logo?e=1753315200&v=beta&t=rmq6uxy8-ThexdnWM_khSaTK7jOc2ifRF0yX3PYBolk",
+    "storia": "Fondata nel 2018 a Marcon, in provincia di Venezia, Totem Automobili nasce dalla passione di Riccardo Quaggio per le auto classiche italiane. L'azienda si dedica alla realizzazione di restomod esclusivi, come la GT Electric e la GT Super, che uniscono l'estetica delle vetture storiche con le più moderne tecnologie. La produzione avviene in parte a Torino, cuore dell'ingegneria automobilistica italiana.",
+    "sede": "Via Monte Berico 24, 30020 Marcon (VE), Italia",
+    "annoFondazione": 2018,
+    "sito": "https://totemautomobili.com",
+    "contatti": {
+      "email": "info@totemautomobili.com",
+      "telefono": "+39 346 37 99 155"
+    },
+    "immagini": [
+      {
+        "url": "https://totemautomobili.com/image/gt-super/gallery/1.jpg",
+        "alt": "Totem GT Electric in showroom"
+      }
+    ]
+  },
+  {
+    "nome": "ErreErre Fuoriserie",
+    "descrizione": "ErreErre Fuoriserie è una carrozzeria artigianale italiana con sede a Torino, specializzata nella reinterpretazione di modelli iconici del passato attraverso un approccio 'retromod', che combina design classico e tecnologie moderne. Il loro progetto più noto è la Giulia ErreErre Fuoriserie, una rivisitazione della Alfa Romeo Giulia Quadrifoglio ispirata al modello del 1962.",
+    "logo": "https://images.squarespace-cdn.com/content/v1/62a1f4eb5d7e1d42686d20d2/be48fe46-ea42-43d5-9d5a-eb958ba56fdb/Scritte+erreerre+fuoriserie-bianco.png?format=1500w",
+    "storia": "Fondata nel 2021 a Torino, ErreErre Fuoriserie nasce dall'ambizione di unire l'artigianalità italiana con le più moderne tecniche progettuali e costruttive. Il loro primo progetto, la Giulia ErreErre Fuoriserie, è una reinterpretazione della Alfa Romeo Giulia Quadrifoglio con un design ispirato al modello del 1962. La carrozzeria è realizzata interamente in fibra di carbonio, con un processo di produzione che richiede circa 5.000 ore di lavoro. Il motore V6 biturbo da 2.9 litri è stato potenziato a 554 CV, e il prezzo di ciascun esemplare parte da €400.000, escluso il costo della vettura donatrice.",
+    "sede": "Torino, Piemonte, Italia",
+    "annoFondazione": 2021,
+    "sito": "https://www.erreerrefuoriserie.com",
+    "contatti": {
+      "email": "info@erreerrefuoriserie.com",
+      "telefono": null
+    },
+    "immagini": [
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/62a1f4eb5d7e1d42686d20d2/1698782357031-7B60LBCTFLZM8FITT010/DSC09874.jpg?format=1500w",
+        "alt": "Giulia ErreErre Fuoriserie in showroom"
+      }
+    ]
+  },
+  {
+    "nome": "Eccentrica",
+    "descrizione": "Eccentrica è una startup automobilistica con sede a San Marino, fondata nel 2023 dall'imprenditore e collezionista Emanuel Colombini. L'azienda si dedica alla reinterpretazione di supercar iconiche, combinando design classico e tecnologie moderne. Il loro primo progetto, la Eccentrica V12, è una rivisitazione della Lamborghini Diablo degli anni '90.",
+    "logo": "https://eccentricacars.com/wp-content/uploads/2023/05/logo-eccentrica.svg",
+    "storia": "Fondata nel 2023 a San Marino da Emanuel Colombini, Eccentrica nasce dalla passione per le supercar degli anni '90. Collaborando con lo studio di design BorromeodeSilva, l'azienda ha presentato la Eccentrica V12, una reinterpretazione moderna della Lamborghini Diablo. Il progetto ha coinvolto partner tecnici di alto profilo, tra cui Pirelli, Brembo, Marantz, Capristo e Alcantara. La Eccentrica V12 è stata presentata in anteprima al Goodwood Festival of Speed nel luglio 2023.",
+    "sede": "San Marino",
+    "annoFondazione": 2023,
+    "sito": "https://eccentricacars.com",
+    "contatti": {
+      "email": "info@eccentricacars.com",
+      "telefono": null
+    },
+    "immagini": [
+      {
+        "url": "https://eccentricacars.com/wp-content/uploads/2024/08/S_ECCENTRICA_STUDIO_09.jpg",
+        "alt": "Eccentrica V12, reinterpretazione della Lamborghini Diablo"
+      }
+    ]
+  },
+  {
+    "nome": "Officine Fioravanti",
+    "descrizione": "Officine Fioravanti è un'azienda svizzera specializzata nella reinterpretazione di supercar classiche italiane, combinando design originale e tecnologie moderne. Il loro progetto più noto è la Ferrari Testarossa Restomod, che unisce l'estetica iconica degli anni '80 con prestazioni e comfort contemporanei.",
+    "logo": "https://static.wixstatic.com/media/f324bc_2c223c2cc7ec4651b2cbf302b69c255e~mv2.png/v1/fill/w_132,h_132,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/OF%20Logo_Corrected%20copia.png",
+    "storia": "Fondata a Coldrerio, in Svizzera, Officine Fioravanti nasce dalla passione per le auto sportive italiane degli anni '80 e '90. L'azienda si distingue per l'approccio 'Hyperclassic', che mira a elevare le vetture classiche a nuovi standard di prestazioni e raffinatezza, preservandone al contempo l'autenticità estetica. Il loro restomod della Ferrari Testarossa ha ricevuto ampi consensi per la sua combinazione di design fedele all'originale e aggiornamenti tecnici significativi.",
+    "sede": "Coldrerio, Ticino, Svizzera",
+    "annoFondazione": 2020,
+    "sito": "https://www.officinefioravanti.com",
+    "contatti": {
+      "email": "info@officinefioravanti.com",
+      "telefono": null
+    },
+    "immagini": [
+      {
+        "url": "https://static.wixstatic.com/media/f324bc_7595172ca7cf43a49b87a7c4da786b85~mv2.jpg/v1/fill/w_2806,h_1622,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/OF_PianezzaWIP_v2-05393.jpg",
+        "alt": "Ferrari Testarossa Restomod by Officine Fioravanti"
+      }
+    ]
+  },
+  {
+    "nome": "Garage Italia Customs",
+    "descrizione": "Garage Italia Customs è un hub creativo fondato nel 2014 da Lapo Elkann, dedicato alla personalizzazione su misura di veicoli e oggetti di design. L'azienda combina l'artigianalità italiana con l'innovazione tecnologica per offrire soluzioni uniche nel settore dell'automotive, del design e del lifestyle.",
+    "logo": "https://framerusercontent.com/images/VTd8Mn89oEGMOxjL4du8crMN0.png?scale-down-to=512",
+    "storia": "Fondata nel 2014 a Milano da Lapo Elkann, Garage Italia Customs ha trasformato l'ex stazione di servizio Agip di Piazzale Accursio, progettata da Mario Bacciocchi nel 1952, in un centro multifunzionale dedicato alla creatività. Dopo un restauro curato dall'architetto Michele De Lucchi, la sede è stata inaugurata nel 2017, ospitando un'officina di personalizzazione, un ristorante gestito dallo chef Carlo Cracco e spazi espositivi. L'azienda è nota per progetti come la 500 Jolly Icon-e e la Panda 4x4 'Pandina Jones', che reinterpretano icone automobilistiche italiane in chiave moderna.",
+    "sede": "Piazzale Francesco Accursio, 22 – 20156 Milano, Italia",
+    "annoFondazione": 2014,
+    "sito": "https://garage-italia.com",
+    "contatti": {
+      "email": "info@garageitaliacustoms.com",
+      "telefono": "+39 02 22220307"
+    },
+    "immagini": [
+      {
+        "url": "https://cdn.sanity.io/images/stn26fna/production/724fb1f2ada262a4fa562631bb2b4278dc91fcf4-1149x1532.jpg?h=1200&q=100&fit=max&auto=format",
+        "alt": "Showroom di Garage Italia Customs a Milano"
+      }
+    ]
+  },
+  {
+    "nome": "Carrozzeria Touring Superleggera",
+    "descrizione": "Carrozzeria Touring Superleggera è una storica carrozzeria italiana fondata nel 1926 a Milano, celebre per l'innovativo metodo costruttivo 'Superleggera' e per la creazione di alcune delle più iconiche vetture del XX secolo. Dopo una pausa di attività, è stata rifondata nel 2006, continuando la tradizione dell'eccellenza artigianale nel design automobilistico.",
+    "logo": "https://www.touringsuperleggera.eu/wp-content/themes/touring/inc/assets/images/logo-touring-white.svg",
+    "storia": "Fondata nel 1926 da Felice Bianchi Anderloni e Gaetano Ponzoni, Carrozzeria Touring Superleggera ha rivoluzionato il design automobilistico con il metodo 'Superleggera', che prevedeva una struttura tubolare leggera rivestita da pannelli in alluminio. Questo approccio ha portato alla creazione di modelli leggendari come l'Alfa Romeo 8C 2900 e la Ferrari 166 MM Barchetta. Dopo la chiusura nel 1966, l'azienda è stata rifondata nel 2006, proseguendo la tradizione con modelli contemporanei come la Disco Volante e la Veloce12, combinando artigianalità classica e tecnologie moderne.",
+    "sede": "Via per Arese, 30 – 20017 Rho (MI), Italia",
+    "annoFondazione": 1926,
+    "sito": "https://www.touringsuperleggera.eu",
+    "contatti": {
+      "email": "info@touringsuperleggera.eu",
+      "telefono": "+39 02 93909285"
+    },
+    "immagini": [
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2024/08/IMG_6875-due-florio-oro-ewip-2-scaled.jpg",
+        "alt": "Superleggera Veloce12 di Carrozzeria Touring Superleggera"
+      }
+    ]
+  },
+  {
+    "nome": "BorromeodeSilva",
+    "descrizione": "BorromeodeSilva è uno studio di design con sede a Milano, fondato nel 2011 da Carlo Borromeo, Fabio De Silva e Filippo Sgalbazzi. Specializzato in design automobilistico, product design e comunicazione strategica, lo studio è noto per progetti di restomod come la STL1, una reinterpretazione della Ford Mustang, e collaborazioni con marchi come Automobili Amos, Eccentrica e Nardone Automotive.",
+    "logo": "https://borromeodesilva.it/IMG/bds-logo.png",
+    "storia": "Fondato nel 2011 a Milano, BorromeodeSilva nasce dalla passione per il design e la tecnologia dei suoi tre fondatori. Lo studio combina l'artigianalità italiana con l'innovazione tecnologica, offrendo soluzioni di design che spaziano dall'automotive al product design. Tra i progetti più noti, la STL1, una reinterpretazione della Ford Mustang, e collaborazioni con marchi come Automobili Amos, Eccentrica e Nardone Automotive.",
+    "sede": "Via Santa Maria Valle, 2 – 20123 Milano, Italia",
+    "annoFondazione": 2011,
+    "sito": "https://borromeodesilva.it",
+    "contatti": {
+      "email": "info@borromeodesilva.it",
+      "telefono": "+39 02 36587423"
+    },
+    "immagini": [
+      {
+        "url": "https://cdn-2.matterport.com/apifs/models/posNdQop6CA/images/xXpX1hUQkex/07.30.2019_11.39.26.jpg?t=2-c2ad866f8de3db21888ee22c0d83018ad2b07b19-1748183843-1&k=apifs%2Fmodels%2FposNdQop6CA%2Fimages%2FxXpX1hUQkex%2F07.30.2019_11.39.26.jpg&amp=&disable=upscale&dpr=2&width=1220&%29=&quot=",
+        "alt": "STL1, reinterpretazione della Ford Mustang by BorromeodeSilva"
+      }
+    ]
+  },
+  {
+    "nome": "Manifattura Automobili Torino",
+    "descrizione": "Manifattura Automobili Torino (M.A.T.) è un'azienda italiana specializzata nella progettazione e produzione di vetture esclusive, one-off e serie limitate. Fondata nel 2014 da Paolo Garella, ex dirigente Pininfarina, M.A.T. unisce l'artigianalità torinese con tecnologie avanzate per creare automobili su misura per clienti esigenti.",
+    "logo": "https://manifatturaautomobilitorino.com/img/logo_mat.png",
+    "storia": "Fondata il 21 ottobre 2014 a Torino da Paolo Garella e Paolo Griot, M.A.T. nasce con l'obiettivo di realizzare progetti automobilistici speciali, combinando design, ingegneria e produzione. Tra i progetti più noti vi sono la New Stratos, reinterpretazione moderna della Lancia Stratos, e la collaborazione con Aspark per la hypercar elettrica Owl. L'azienda ha anche avviato la collezione 'Jewelry', dedicata alla riproduzione di auto storiche come l'Alfa Romeo 33 Stradale.",
+    "sede": "Via Valgioie, 8 – 10040 Rivalta di Torino (TO), Italia",
+    "annoFondazione": 2014,
+    "sito": "https://manifatturaautomobilitorino.com",
+    "contatti": {
+      "email": "info@manifatturaautomobilitorino.com",
+      "telefono": null
+    },
+    "immagini": [
+      {
+        "url": "https://manifatturaautomobilitorino.com/img/founder/MAT_Founder_Ing_Garella.jpg",
+        "alt": "New Stratos by Manifattura Automobili Torino"
+      }
+    ]
+  },
+  {
+    "nome": "Bizzarrini",
+    "descrizione": "Bizzarrini è un leggendario marchio automobilistico italiano fondato nel 1964 da Giotto Bizzarrini, ex ingegnere di Alfa Romeo, Ferrari e Iso Rivolta. Celebre per modelli iconici come la 5300 GT Strada e la P538S, l'azienda ha lasciato un'impronta indelebile nel mondo delle auto sportive e da competizione. Dopo una pausa di diversi decenni, il marchio è stato rilanciato nel 2020 con la produzione della 5300 GT Corsa Revival, una fedele reinterpretazione della vettura che vinse la sua classe alla 24 Ore di Le Mans del 1965.",
+    "logo": "https://cdn.prod.website-files.com/63b16a8335937339564eec1b/63bd9a6c0c22b0644de6c1f0_Bizzarrini-logo.svg",
+    "storia": "Fondata nel 1964 a Livorno da Giotto Bizzarrini, l'azienda ha prodotto un numero limitato di vetture ad alte prestazioni fino al 1969. Tra i modelli più noti vi sono la 5300 GT Strada, la 5300 GT Corsa e la P538S. Nel 2020, il marchio è stato acquisito dal Pegasus Automotive Group, segnando il ritorno di Bizzarrini nel panorama automobilistico con la 5300 GT Corsa Revival, costruita in serie limitata di 24 esemplari utilizzando progetti originali e tecnologie moderne.",
+    "sede": "Livorno, Italia",
+    "annoFondazione": 1964,
+    "sito": "https://www.bizzarrini.com",
+    "contatti": {
+      "email": "info@bizzarrini.com",
+      "telefono": null
+    },
+    "immagini": [
+      {
+        "url": "https://cdn.prod.website-files.com/63b16a8335937339564eec1b/63d11b08661b687ea7587da1_1213_SC_Bizzarrini_C1_Guigaro_Intake_v1h_NoTalent-DT.jpg",
+        "alt": "Bizzarrini 5300 GT Corsa Revival"
+      }
+    ]
+  },
+  {
+    "nome": "Alfaholics",
+    "descrizione": "Alfaholics è un'azienda britannica specializzata nella produzione e restauro di vetture Alfa Romeo, in particolare della serie 105. Fondata dalla famiglia Banks, l'azienda è rinomata per la sua attenzione ai dettagli e per l'uso di tecnologie moderne nel restauro di auto d'epoca. Il loro progetto più noto è la GTA-R 290, una reinterpretazione moderna dell'Alfa Romeo Giulia Sprint GTA. Sebbene Alfaholics abbia sede nel Regno Unito, il suo lavoro è interamente dedicato al restauro e alla reinterpretazione dei modelli Alfa Romeo. Una vera celebrazione del design italiano, da parte di una realtà internazionale.",
+    "logo": "https://www.alfaholics.com/wp-content/uploads/2025/01/alfaholics_wordmark_logo.svg",
+    "storia": "Fondata da Richard Banks nel 1977, Alfaholics è cresciuta grazie alla passione della famiglia per le Alfa Romeo. I figli di Richard, Max e Andrew, hanno portato l'azienda a nuovi livelli, trasformandola in un punto di riferimento mondiale per gli appassionati del marchio. Con oltre 40 anni di esperienza, Alfaholics combina l'artigianalità tradizionale con l'innovazione tecnologica per offrire vetture uniche e performanti.",
+    "sede": "Unit 12, Hither Green Industrial Estate, Clevedon, North Somerset, BS21 6XU, Regno Unito",
+    "annoFondazione": 1977,
+    "sito": "https://www.alfaholics.com",
+    "contatti": {
+      "email": "mail@alfaholics.com",
+      "telefono": "+44 (0) 1275 349 449"
+    },
+    "immagini": [
+      {
+        "url": "https://www.alfaholics.com/wp-content/uploads/2025/01/about-us_intro_01-04C.jpg",
+        "alt": "Alfaholics GTA-R 290"
+      }
+    ]
+  }
+]

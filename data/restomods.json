@@ -1,0 +1,878 @@
+[
+  {
+    "nome": "Lancia Delta Futurista",
+    "costruttore": "6831a5de67d0b0b19a6513e9",
+    "descrizione": "La Lancia Delta Futurista è un restomod artigianale realizzato da Automobili Amos, basato sulla Delta HF Integrale 16V. Prodotta in soli 20 esemplari, presenta una carrozzeria in fibra di carbonio, interni in Alcantara e dettagli moderni, pur mantenendo l'anima analogica e sportiva dell'originale.",
+    "anno": 2018,
+    "prezzo": 350000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "4 cilindri in linea 2.0L turbo",
+      "potenza": "330 CV",
+      "trasmissione": "Manuale a 5 marce",
+      "accelerazione": null,
+      "velocitaMax": "230 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0178/5698/7236/files/aa-08-1.jpg?v=1626089320",
+        "alt": "Lancia Delta Futurista - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0178/5698/7236/files/aa-04-5.jpg?v=1632989508",
+        "alt": "Lancia Delta Futurista",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0178/5698/7236/files/aa-13-3_78b13bb0-6e42-419d-aea4-63459a3bd656.jpg?v=1644229669",
+        "alt": "Lancia Delta Futurista",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0178/5698/7236/files/aa-15-5.jpg?v=1644227753",
+        "alt": "Lancia Delta Futurista",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio",
+      "Interni in Alcantara",
+      "Produzione limitata a 20 esemplari",
+      "Restomod artigianale"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2018-09-04T00:00:00.000Z",
+    "updatedAt": "2018-09-04T00:00:00.000Z"
+  },
+  {
+    "nome": "Kimera EVO37",
+    "costruttore": "6831a84f8fb7bceed47bf927",
+    "descrizione": "La Kimera EVO37 è un restomod italiano che rende omaggio alla leggendaria Lancia Rally 037. Prodotta in soli 37 esemplari, combina il design iconico degli anni '80 con tecnologie moderne, offrendo prestazioni eccezionali e un'esperienza di guida unica.",
+    "anno": 2021,
+    "prezzo": 540000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "4 cilindri in linea 2.15L twincharged",
+      "potenza": "505 CV",
+      "trasmissione": "Manuale a 6 marce",
+      "accelerazione": "0-100 km/h in 3.0 s",
+      "velocitaMax": "310 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_7be6871f9a0b43879a25233df5d0cb30~mv2.jpg/v1/fill/w_2000,h_1016,fp_0.47_0.65,q_90,enc_avif,quality_auto/___DSC_0532.jpg",
+        "alt": "Kimera EVO37 - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_e3de6fe4f82448a584d79dbb02c107a0~mv2.jpg/v1/fill/w_1810,h_1376,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/__24_07_Goodwood-109.jpg",
+        "alt": "Kimera EVO37",
+        "isPrimary": false
+      },
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_ebffb86f8f8240b498892f2807ec34eb~mv2.jpg/v1/fill/w_1810,h_1062,fp_0.51_0.63,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/____1000lakes-California-6.jpg",
+        "alt": "Kimera EVO37",
+        "isPrimary": false
+      },
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_08d95c8b06fd48139c6c6a5917707a22~mv2.jpg/v1/fill/w_1756,h_1335,al_c,q_90,enc_avif,quality_auto/__DSC_1222.jpg",
+        "alt": "Kimera EVO37",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio",
+      "Produzione limitata a 37 esemplari",
+      "Restomod artigianale",
+      "Sospensioni Öhlins regolabili",
+      "Impianto frenante Brembo"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2021-07-01T00:00:00.000Z",
+    "updatedAt": "2021-07-01T00:00:00.000Z"
+  },
+  {
+    "nome": "GT Electric",
+    "costruttore": "6831acd70f56c413fff4883c",
+    "descrizione": "La Totem GT Electric è un restomod artigianale basato sull'Alfa Romeo Giulia GT, reinterpretata in chiave moderna con un powertrain completamente elettrico. Prodotta in soli 20 esemplari, unisce design classico e tecnologie avanzate, offrendo prestazioni da supercar a zero emissioni.",
+    "anno": 2022,
+    "prezzo": 500000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "Motore elettrico posteriore da 590 CV",
+      "potenza": "590 CV",
+      "trasmissione": "Automatica con differenziale autobloccante",
+      "accelerazione": "0-100 km/h in 2,9 s",
+      "velocitaMax": "255 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://totemautomobili.com/image/gt-electric/gt-electric-intro.jpg",
+        "alt": "Totem GT Electric - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://totemautomobili.com/image/gt-electric/gt-electric-interior-1.jpg",
+        "alt": "Totem GT Electric",
+        "isPrimary": false
+      },
+      {
+        "url": "https://totemautomobili.com/image/gt-electric/gallery/1.jpg",
+        "alt": "Totem GT Electric",
+        "isPrimary": false
+      },
+      {
+        "url": "https://totemautomobili.com/image/gt-electric/gt-electric-interior-2.jpg",
+        "alt": "Totem GT Electric",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio",
+      "Produzione limitata a 20 esemplari",
+      "Restomod artigianale",
+      "Batteria da 81 kWh",
+      "Autonomia fino a 500 km",
+      "Sistema audio McFly con simulazione sonora"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2022-01-01T00:00:00.000Z",
+    "updatedAt": "2022-01-01T00:00:00.000Z"
+  },
+  {
+    "nome": "GT Super",
+    "costruttore": "6831acd70f56c413fff4883c",
+    "descrizione": "La Totem GT Super è un restomod artigianale basato sull'Alfa Romeo Giulia GT, reinterpretata in chiave moderna con un motore V6 biturbo da 2,8 litri sviluppato da Italtecnica. Prodotta in soli 40 esemplari, unisce design classico e tecnologie avanzate, offrendo prestazioni da supercar.",
+    "anno": 2023,
+    "prezzo": 460000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V6 2.8L biturbo (Italtecnica Gloria)",
+      "potenza": "600 CV",
+      "trasmissione": "Manuale a 6 marce con differenziale autobloccante",
+      "accelerazione": "0-100 km/h in 3,2 s",
+      "velocitaMax": "250 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://totemautomobili.com/image/gt-super/gallery/13.jpg",
+        "alt": "Totem GT Super - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://totemautomobili.com/image/gt-super/gallery/12.jpg",
+        "alt": "Totem GT Super",
+        "isPrimary": false
+      },
+      {
+        "url": "https://totemautomobili.com/image/gt-super/gt-super-engine-2.jpg",
+        "alt": "Totem GT Super",
+        "isPrimary": false
+      },
+      {
+        "url": "https://totemautomobili.com/image/gt-super/gallery/11.jpg",
+        "alt": "Totem GT Super",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio",
+      "Produzione limitata a 40 esemplari",
+      "Restomod artigianale",
+      "Sospensioni a doppio triangolo in alluminio",
+      "Impianto frenante Brembo con dischi da 345 mm (ant.) e 330 mm (post.)",
+      "Interni personalizzabili con pelle Nappa e inserti in fibra di carbonio"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2023-12-22T00:00:00.000Z",
+    "updatedAt": "2023-12-22T00:00:00.000Z"
+  },
+  {
+    "nome": "Giulia GT",
+    "costruttore": "6831ae56d81adb2f3ea6595b",
+    "descrizione": "La Giulia GT di ErreErre Fuoriserie è un retromod basato sull'Alfa Romeo Giulia Quadrifoglio, reinterpretata con un design ispirato alla Giulia degli anni '60. Prodotta in soli 33 esemplari, unisce estetica retrò e tecnologie moderne, offrendo prestazioni elevate e un'esperienza di guida unica.",
+    "anno": 2023,
+    "prezzo": 400000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V6 2.9L biturbo",
+      "potenza": "562 CV",
+      "trasmissione": "Automatica a 8 rapporti o manuale a 6 marce",
+      "accelerazione": "0-100 km/h in 3,6 s",
+      "velocitaMax": "310 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/62a1f4eb5d7e1d42686d20d2/c0aaa3c6-ad8b-439e-88a1-1a35801e802e/_DSF7269+.jpg?format=2500w",
+        "alt": "Giulia GT di ErreErre Fuoriserie - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://immagini.alvolante.it/sites/default/files/styles/image_gallery_big/public/news_galleria/2023/11/erreerre-fuoriserie-236_1.jpg",
+        "alt": "Giulia GT di ErreErre Fuoriserie",
+        "isPrimary": false
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/62a1f4eb5d7e1d42686d20d2/75a3192c-600f-43da-9fcf-b49b3e51d025/Erreerre20241223113614.png?format=2500w",
+        "alt": "Giulia GT di ErreErre Fuoriserie",
+        "isPrimary": false
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/62a1f4eb5d7e1d42686d20d2/9c5dc7d3-4546-467d-8a72-7bc89ab71928/DSC02090.jpg?format=2500w",
+        "alt": "Giulia GT di ErreErre Fuoriserie",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio",
+      "Produzione limitata a 33 esemplari",
+      "Design ispirato alla Giulia degli anni '60",
+      "Interni personalizzabili in pelle e Alcantara",
+      "Sospensioni e scarico Bilstein su misura"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2023-11-01T00:00:00.000Z",
+    "updatedAt": "2023-11-01T00:00:00.000Z"
+  },
+  {
+    "nome": "Lamborghini Diablo Restomod",
+    "costruttore": "6831b1d324b76c963ebea000",
+    "descrizione": "La Lamborghini Diablo Restomod di Eccentrica è una reinterpretazione moderna dell'iconica supercar degli anni '90. Basata su un esemplare originale, è stata completamente rivisitata con materiali avanzati come fibra di carbonio e titanio stampato in 3D. Il motore V12 da 5,7 litri è stato potenziato a 550 CV, abbinato a un cambio manuale a 6 marce. La produzione è limitata a 19 esemplari, ciascuno personalizzabile secondo le specifiche del cliente.",
+    "anno": 2023,
+    "prezzo": 1300000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V12 5.7L aspirato",
+      "potenza": "550 CV",
+      "trasmissione": "Manuale a 6 marce",
+      "accelerazione": "0-100 km/h in 3,5 s",
+      "velocitaMax": "335 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/52181c58-16ba-4e94-836e-bfed48bccbd9/dhgpjer-6e714ad6-9f95-4a3f-af3a-9b50031cfdb9.jpg/v1/fill/w_1920,h_1080,q_75,strp/eccentrica_lamborghini_diablo_restomod__by_haseeb312_dhgpjer-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzUyMTgxYzU4LTE2YmEtNGU5NC04MzZlLWJmZWQ0OGJjY2JkOVwvZGhncGplci02ZTcxNGFkNi05Zjk1LTRhM2YtYWYzYS05YjUwMDMxY2ZkYjkuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ZOSGTSBuDuE8voM8gij-fOLzDgWKdS3tP5d1BciKORw",
+        "alt": "Eccentrica Lamborghini Diablo - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://eccentricacars.com/wp-content/uploads/2024/08/S_ECCENTRICA_STUDIO_13.jpg",
+        "alt": "Eccentrica Lamborghini Diablo",
+        "isPrimary": false
+      },
+      {
+        "url": "https://eccentricacars.com/wp-content/uploads/2024/08/S_ECCENTRICA_STUDIO_22.jpg",
+        "alt": "Eccentrica Lamborghini Diablo",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.travelsdubai.com/digital_images/large/2024-05-09/lamborghini-diablo-1715243239-9845.jpg",
+        "alt": "Eccentrica Lamborghini Diablo",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio e titanio stampato in 3D",
+      "Produzione limitata a 19 esemplari",
+      "Restomod artigianale su base Lamborghini Diablo",
+      "Interni personalizzabili con materiali di alta qualità",
+      "Sistema di sospensioni aggiornato con ammortizzatori attivi",
+      "Impianto frenante Brembo ad alte prestazioni"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2023-07-01T00:00:00.000Z",
+    "updatedAt": "2023-07-01T00:00:00.000Z"
+  },
+  {
+    "nome": "Ferrari Testarossa Restomod",
+    "costruttore": "6831b30a12004f66cf274837",
+    "descrizione": "La Ferrari Testarossa Restomod di Officine Fioravanti è una reinterpretazione moderna dell'iconica supercar degli anni '80. Basata su un esemplare originale, è stata completamente rivisitata con materiali avanzati e tecnologie moderne, mantenendo l'estetica classica. Il motore flat-12 da 4,9 litri è stato potenziato a 510 CV, abbinato a un cambio manuale a 5 marce. La produzione è limitata a pochi esemplari, ciascuno personalizzabile secondo le specifiche del cliente.",
+    "anno": 2021,
+    "prezzo": 1500000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V12 4.9L flat-12",
+      "potenza": "510 CV",
+      "trasmissione": "Manuale a 5 marce",
+      "accelerazione": "0-100 km/h in 3,9 s",
+      "velocitaMax": "323 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://www.designmag.cz/foto/2023/02/testarossa-officine-fioravanti-0.jpg",
+        "alt": "Ferrari Testarossa Restomod - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://ruoteclassiche.quattroruote.it//wp-content/uploads/nggalleries/officine-fioravanti-testarossa-2021//Ferrari-Testarossa-by-Officine-Fioravanti-35.jpg",
+        "alt": "Ferrari Testarossa Restomod",
+        "isPrimary": false
+      },
+      {
+        "url": "https://ruoteclassiche.quattroruote.it//wp-content/uploads/nggalleries/officine-fioravanti-testarossa-2021//Ferrari-Testarossa-by-Officine-Fioravanti-59.jpg",
+        "alt": "Ferrari Testarossa Restomod",
+        "isPrimary": false
+      },
+      {
+        "url": "https://static.wixstatic.com/media/f324bc_1fe124fb162743b3bdf9874b32163d85~mv2.png/v1/fill/w_1733,h_1080,fp_0.50_0.50,q_90,enc_avif,quality_auto/4.png",
+        "alt": "Ferrari Testarossa Restomod",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in alluminio con dettagli in fibra di carbonio",
+      "Produzione limitata a pochi esemplari",
+      "Restomod artigianale su base Ferrari Testarossa",
+      "Interni personalizzabili con materiali di alta qualità",
+      "Sistema di sospensioni aggiornato con ammortizzatori elettronici regolabili",
+      "Impianto frenante Brembo ad alte prestazioni"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2021-10-01T00:00:00.000Z",
+    "updatedAt": "2021-10-01T00:00:00.000Z"
+  },
+  {
+    "nome": "Ferrari 512 BB Restomod",
+    "costruttore": "6831b30a12004f66cf274837",
+    "descrizione": "La Ferrari 512 BB Restomod di Officine Fioravanti è una reinterpretazione moderna dell'iconica berlinetta degli anni '70. Basata su un esemplare originale, è stata completamente rivisitata con tecnologie avanzate, mantenendo l'estetica classica. Il motore V12 da 5,0 litri è stato aggiornato con un sistema di iniezione elettronica nascosto all'interno di repliche dei carburatori originali, migliorando l'affidabilità e l'utilizzabilità quotidiana. La produzione è limitata a pochi esemplari, ciascuno personalizzabile secondo le specifiche del cliente.",
+    "anno": 2024,
+    "prezzo": 1200000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V12 5.0L boxer",
+      "potenza": "360 CV",
+      "trasmissione": "Manuale a 5 marce",
+      "accelerazione": "0-100 km/h in 4,5 s",
+      "velocitaMax": "300 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/dscf6566.jpg?1748081113",
+        "alt": "Ferrari 512 BB Restomod - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/dscf6649.jpg?1748081113",
+        "alt": "Ferrari 512 BB Restomod",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/dscf5460.jpg?1748081113",
+        "alt": "Ferrari 512 BB Restomod",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/dscf6521.jpg?1748081113",
+        "alt": "Ferrari 512 BB Restomod",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Sistema di iniezione elettronica nascosto in repliche dei carburatori originali",
+      "Impianto elettrico completamente aggiornato",
+      "Restomod artigianale su base Ferrari 512 BB",
+      "Interni personalizzabili con materiali di alta qualità",
+      "Sospensioni aggiornate per migliorare il comfort e la maneggevolezza",
+      "Impianto frenante potenziato per prestazioni superiori"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2024-05-27T00:00:00.000Z",
+    "updatedAt": "2024-05-27T00:00:00.000Z"
+  },
+  {
+    "nome": "Alfa Romeo 8C Competizione M",
+    "costruttore": "6831b30a12004f66cf274837",
+    "descrizione": "La Alfa Romeo 8C Competizione M di Officine Fioravanti è una reinterpretazione moderna dell'iconica coupé italiana. Basata sull'esemplare originale, è stata completamente rivisitata con tecnologie avanzate e materiali di alta qualità, mantenendo l'estetica classica. Il cambio robotizzato è stato sostituito con un cambio manuale a 6 marce con leva a griglia aperta, migliorando l'esperienza di guida. La produzione è limitata a pochi esemplari, ciascuno personalizzabile secondo le specifiche del cliente.",
+    "anno": 2024,
+    "prezzo": 1200000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V8 4.7L aspirato",
+      "potenza": "oltre 450 CV",
+      "trasmissione": "Manuale a 6 marce",
+      "accelerazione": "0-100 km/h in 4,2 s",
+      "velocitaMax": "oltre 300 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/dscf6742.jpg?1748081113",
+        "alt": "Alfa Romeo 8C Competizione M - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/dscf5430.jpg?1748081113",
+        "alt": "Alfa Romeo 8C Competizione M",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/dscf6479.jpg?1748081113",
+        "alt": "Alfa Romeo 8C Competizione M",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/dscf6419.jpg?1748081113",
+        "alt": "Alfa Romeo 8C Competizione M",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Cambio manuale a 6 marce con leva a griglia aperta",
+      "Sospensioni Öhlins regolabili a controllo elettronico",
+      "Impianto frenante carboceramico Brembo",
+      "Sedili monoscocca in fibra di carbonio omologati FIA",
+      "Riduzione significativa del peso complessivo",
+      "Elettronica di gestione del veicolo completamente aggiornata"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2024-05-27T00:00:00.000Z",
+    "updatedAt": "2024-05-27T00:00:00.000Z"
+  },
+  {
+    "nome": "Ferrari F40 Alte Prestazioni",
+    "costruttore": "6831b30a12004f66cf274837",
+    "descrizione": "La Ferrari F40 Alte Prestazioni di Officine Fioravanti è una reinterpretazione moderna dell'iconica supercar degli anni '80. Basata su un esemplare originale, è stata completamente rivisitata con tecnologie avanzate e materiali di alta qualità, mantenendo l'estetica classica. Gli aggiornamenti includono sospensioni Öhlins TTX 36 regolabili a quattro vie, freni carboceramici Brembo, servosterzo idraulico e un sistema ABS moderno. La produzione è limitata a pochi esemplari, ciascuno personalizzabile secondo le specifiche del cliente.",
+    "anno": 2025,
+    "prezzo": 1500000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V8 2.9L biturbo",
+      "potenza": "478 CV",
+      "trasmissione": "Manuale a 5 marce",
+      "accelerazione": "0-100 km/h in 4,1 s",
+      "velocitaMax": "324 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2023/09/ferrari-f40-4.webp",
+        "alt": "Ferrari F40 Alte Prestazioni - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2023/05/ferrari-f40-ex-alain-prost-3.webp",
+        "alt": "Ferrari F40 Alte Prestazioni",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2023/05/ferrari-f40-ex-alain-prost-5.webp",
+        "alt": "Ferrari F40 Alte Prestazioni",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2023/05/ferrari-f40-ex-alain-prost-11.webp",
+        "alt": "Ferrari F40 Alte Prestazioni",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Sospensioni Öhlins TTX 36 regolabili a quattro vie",
+      "Freni carboceramici Brembo con pinze a 6 pistoncini anteriori e 4 posteriori",
+      "Servosterzo idraulico con scatola guida a rapporto rapido",
+      "Sistema ABS moderno con sensori avanzati",
+      "Cerchi forgiati da 18\" anteriori e 19\" posteriori con pneumatici Michelin Cup 2 o Pirelli P Zero",
+      "Sistema di sollevamento anteriore per superare ostacoli stradali"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2025-01-28T00:00:00.000Z",
+    "updatedAt": "2025-01-28T00:00:00.000Z"
+  },
+  {
+    "nome": "Fiat 500 Jolly Icon-e",
+    "costruttore": "6831ba0d8c3635892d0bc3dd",
+    "descrizione": "La Fiat 500 Jolly Icon-e di Garage Italia Customs è una reinterpretazione moderna della celebre 'spiaggina' degli anni '50. Basata su esemplari originali, è stata completamente restaurata e trasformata in un veicolo elettrico, mantenendo l'estetica vintage. Gli aggiornamenti includono un motore elettrico con batteria da 9 kWh, sedili intrecciati a mano in corda naturale e un cruscotto digitale da 5 pollici. La produzione è limitata e ogni esemplare è personalizzabile secondo le specifiche del cliente.",
+    "anno": 2019,
+    "prezzo": 48000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "Elettrico",
+      "potenza": "Non dichiarata",
+      "trasmissione": "Automatica",
+      "accelerazione": null,
+      "velocitaMax": "85 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://www.iocarrozziere.it/wp-content/uploads/2019/07/k2_items_src_e844e95264ef8258be8cdea5b6544ed7.jpg",
+        "alt": "Fiat 500 Jolly Icon-e - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://autodesignmagazine.com/wp-content/uploads/2019/05/2019052901_fiat_Icon-E.jpg",
+        "alt": "Fiat 500 Jolly Icon-e",
+        "isPrimary": false
+      },
+      {
+        "url": "https://autodesignmagazine.com/wp-content/uploads/2019/05/2019052903_fiat_Icon-E.jpg",
+        "alt": "Fiat 500 Jolly Icon-e",
+        "isPrimary": false
+      },
+      {
+        "url": "https://autodesignmagazine.com/wp-content/uploads/2019/05/2019052902_fiat_Icon-E.jpg",
+        "alt": "Fiat 500 Jolly Icon-e",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Motore elettrico con batteria da 9 kWh",
+      "Autonomia di circa 120 km",
+      "Sedili intrecciati a mano in corda naturale",
+      "Cruscotto digitale da 5 pollici",
+      "Fari anteriori e posteriori a LED",
+      "Carrozzeria priva di tetto e portiere",
+      "Struttura di rinforzo per maggiore sicurezza",
+      "Pneumatici della linea Vintage di Michelin"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2019-05-21T00:00:00.000Z",
+    "updatedAt": "2019-05-21T00:00:00.000Z"
+  },
+  {
+    "nome": "Fiat Panda 4x4 Pandina Jones",
+    "costruttore": "6831ba0d8c3635892d0bc3dd",
+    "descrizione": "La Fiat Panda 4x4 'Pandina Jones' è una reinterpretazione elettrica della celebre utilitaria italiana, realizzata da Garage Italia Customs in collaborazione con Car & Vintage. Questo restomod fa parte del progetto ICON-e, che unisce tradizione e modernità attraverso la conversione elettrica di auto iconiche. La Pandina Jones presenta una livrea ispirata alle avventure di Indiana Jones, con interni in Alcantara arancione e dettagli vintage. La trazione integrale è mantenuta grazie all'integrazione del motore elettrico con la trasmissione originale.",
+    "anno": 2020,
+    "prezzo": 70000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "Elettrico",
+      "potenza": "Non dichiarata",
+      "trasmissione": "Manuale a 5 marce",
+      "accelerazione": null,
+      "velocitaMax": "115 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://www.classicdriver.com/cdn-cgi/image/format=auto,fit=cover,width=1920,height=1029/sites/default/files/article_images/4e02d714-2a26-402b-a572-7cfc2a5a5cc0.jpg?1748102710",
+        "alt": "Fiat Panda 4x4 Pandina Jones - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/f589e22a-168e-46ec-9187-917fff6c0f38.jpg?1748102710",
+        "alt": "Fiat Panda 4x4 Pandina Jones",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/94869353-4041-4e18-9be1-9363b8281ded.jpg?1748102710",
+        "alt": "Fiat Panda 4x4 Pandina Jones",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.classicdriver.com/sites/default/files/article_images/493b1dca-c915-49f6-aac3-024d94a5b107.jpg?1748102710",
+        "alt": "Fiat Panda 4x4 Pandina Jones",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Conversione elettrica con motore integrato alla trasmissione originale",
+      "Livrea ispirata a Indiana Jones",
+      "Interni in Alcantara arancione",
+      "Sistema audio JBL",
+      "Inclinometro analogico sul cruscotto",
+      "Autonomia di circa 100 km (WLTP)",
+      "Ricarica tramite presa Type 2",
+      "Produzione limitata a 5 esemplari"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2020-01-07T00:00:00.000Z",
+    "updatedAt": "2020-01-07T00:00:00.000Z"
+  },
+  {
+    "nome": "Alfa Romeo Disco Volante",
+    "costruttore": "6831bb299fc5e3cace3c29bd",
+    "descrizione": "La Alfa Romeo Disco Volante di Carrozzeria Touring Superleggera è una reinterpretazione moderna della leggendaria C52 del 1952. Basata sull'Alfa Romeo 8C Competizione, combina un design avveniristico con prestazioni elevate. La carrozzeria è realizzata artigianalmente in alluminio e fibra di carbonio, offrendo un'estetica unica e una leggerezza strutturale. Prodotta in serie limitata, ogni esemplare è personalizzato secondo le specifiche del cliente.",
+    "anno": 2013,
+    "prezzo": 1500000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V8 4.7L",
+      "potenza": "450 CV",
+      "trasmissione": "Sequenziale a 6 marce",
+      "accelerazione": "0-100 km/h in 4,2 s",
+      "velocitaMax": "290 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2020/05/ARDVT-exterior-slider1.jpg",
+        "alt": "Alfa Romeo Disco Volante - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2020/05/ARDVT-personal2-slider1.jpg",
+        "alt": "Alfa Romeo Disco Volante",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2020/05/ARDVT-personal1-slider6.jpg",
+        "alt": "Alfa Romeo Disco Volante",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2020/05/ARDVT-personal2-slider6.jpg",
+        "alt": "Alfa Romeo Disco Volante",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in alluminio e fibra di carbonio",
+      "Design ispirato alla C52 del 1952",
+      "Produzione artigianale su misura",
+      "Interni personalizzabili",
+      "Sospensioni a quadrilatero in alluminio",
+      "Sistema di scarico sportivo",
+      "Freni carboceramici",
+      "Cerchi in lega da 20 pollici"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2013-03-01T00:00:00.000Z",
+    "updatedAt": "2013-03-01T00:00:00.000Z"
+  },
+  {
+    "nome": "Veloce12",
+    "costruttore": "6831bb299fc5e3cace3c29bd",
+    "descrizione": "La Veloce12 di Carrozzeria Touring Superleggera è un restomod esclusivo basato sulla Ferrari 550 Maranello. Prodotta in soli 30 esemplari, combina l'eleganza del design italiano con prestazioni moderne. La carrozzeria in fibra di carbonio è realizzata a mano, mentre il motore V12 da 5,5 litri eroga 503 CV. Gli interni, rifiniti in pelle e Alcantara, offrono un'esperienza di guida analogica e coinvolgente.",
+    "anno": 2025,
+    "prezzo": 690000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V12 5.5L aspirato",
+      "potenza": "503 CV",
+      "trasmissione": "Manuale a 6 marce",
+      "accelerazione": "0-100 km/h in 4,4 s",
+      "velocitaMax": "320 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2024/08/3-4-Rear-scaled-1200x761.jpg",
+        "alt": "Veloce12 - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2025/02/Superleggera_Veloce12_Azzurro_Cielo_3-scaled.jpg",
+        "alt": "Veloce12",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2024/08/Interni-DashBoard-1200x761.jpg",
+        "alt": "Veloce12",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2024/08/Central-Console-1200x761.jpg",
+        "alt": "Veloce12",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio realizzata a mano",
+      "Motore V12 aspirato da 5,5 litri",
+      "Cambio manuale a 6 marce",
+      "Freni Brembo ad alte prestazioni",
+      "Sospensioni TracTive regolabili",
+      "Interni personalizzabili in pelle e Alcantara",
+      "Produzione limitata a 30 esemplari",
+      "Design ispirato alle gran turismo italiane degli anni '90"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "nome": "Mustang STL1",
+    "costruttore": "6831cc2415f7f8a0049368d1",
+    "descrizione": "La Mustang STL1 di BorromeodeSilva è un restomod audace basato sulla Ford Mustang Fastback del 1968, trasformata in un veicolo off-road senza tetto. Dotata di un motore V8 5.0L Road Runner da 444 CV, presenta una carrozzeria in acciaio automobilistico 1006, sospensioni indipendenti con coilover ad alte prestazioni e un roll-bar tubolare artigianale. Gli interni minimalisti includono sedili sportivi, strumentazione digitale e comandi in stile aeronautico.",
+    "anno": 2024,
+    "prezzo": 500000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V8 5.0L Road Runner",
+      "potenza": "444 CV",
+      "trasmissione": "Manuale a 6 marce",
+      "accelerazione": null,
+      "velocitaMax": null
+    },
+    "immagini": [
+      {
+        "url": "https://borromeodesilva.it/IMG/stl1/1.jpg",
+        "alt": "Mustang STL1 - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://borromeodesilva.it/IMG/stl1/16.jpg",
+        "alt": "Mustang STL1",
+        "isPrimary": false
+      },
+      {
+        "url": "https://borromeodesilva.it/IMG/stl1/12.jpg",
+        "alt": "Mustang STL1",
+        "isPrimary": false
+      },
+      {
+        "url": "https://borromeodesilva.it/IMG/stl1/9.jpg",
+        "alt": "Mustang STL1",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in acciaio automobilistico 1006",
+      "Roll-bar tubolare artigianale",
+      "Sospensioni indipendenti con coilover ad alte prestazioni",
+      "Freni a disco forati e scanalati da 11\" anteriori e 10,5\" posteriori",
+      "Differenziale a slittamento limitato",
+      "Cerchi Turbine con pneumatici Pirelli Scorpion All-Terrain",
+      "Interni minimalisti con strumentazione digitale",
+      "Produzione limitata"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2024-03-27T00:00:00.000Z",
+    "updatedAt": "2024-03-27T00:00:00.000Z"
+  },
+  {
+    "nome": "New Stratos",
+    "costruttore": "6831cd202d6344911f2b3c56",
+    "descrizione": "La New Stratos è una reinterpretazione moderna della leggendaria Lancia Stratos, realizzata da Manifattura Automobili Torino (MAT) in collaborazione con Michael Stoschek. Basata sulla Ferrari 430 Scuderia, presenta una carrozzeria in fibra di carbonio, telaio accorciato e un motore V8 da 4.3 litri potenziato a 540 CV. Prodotta in soli 25 esemplari, offre un'esperienza di guida analogica con cambio manuale e prestazioni da supercar.",
+    "anno": 2018,
+    "prezzo": 707000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V8 4.3L aspirato",
+      "potenza": "540 CV",
+      "trasmissione": "Manuale a 6 marce",
+      "accelerazione": "0-100 km/h in 3,3 s",
+      "velocitaMax": "330 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://manifatturaautomobilitorino.com/img/cars/new_stratos/MAT_NEWSTRATOS_Cover_Home.jpeg",
+        "alt": "New Stratos - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://autodesignmagazine.com/wp-content/uploads/2019/07/2019071502_MAT_STRATOS.jpg",
+        "alt": "New Stratos",
+        "isPrimary": false
+      },
+      {
+        "url": "https://manifatturaautomobilitorino.com/img/cars/new_stratos/MAT_NEWSTRATOS_Cover.jpeg",
+        "alt": "New Stratos",
+        "isPrimary": false
+      },
+      {
+        "url": "https://manifatturaautomobilitorino.com/img/cars/new_stratos/MAT_NEWSTRATOS_Custom.jpeg",
+        "alt": "New Stratos",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio",
+      "Telaio accorciato di 20 cm rispetto alla F430",
+      "Motore V8 4.3L potenziato a 540 CV",
+      "Cambio manuale a 6 marce",
+      "Peso a secco di 1.247 kg",
+      "Distribuzione dei pesi 44/56",
+      "Freni carboceramici Brembo",
+      "Produzione limitata a 25 esemplari"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2018-03-01T00:00:00.000Z",
+    "updatedAt": "2018-03-01T00:00:00.000Z"
+  },
+  {
+    "nome": "Bizzarrini 5300 GT Corsa Revival",
+    "costruttore": "6831cf7302907a297480f8f3",
+    "descrizione": "La Bizzarrini 5300 GT Corsa Revival è una fedele reinterpretazione della leggendaria vettura che vinse la sua classe alla 24 Ore di Le Mans nel 1965. Prodotta in soli 24 esemplari, questa versione moderna mantiene l'estetica e le caratteristiche tecniche dell'originale, con una carrozzeria in composito leggero su telaio tubolare in acciaio e un motore V8 da 5.3 litri che eroga oltre 400 CV. Ogni esemplare è costruito a mano seguendo i disegni originali, offrendo un'esperienza di guida autentica e prestazioni comparabili a quelle di una supercar moderna.",
+    "anno": 2022,
+    "prezzo": 1950000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V8 5.3L",
+      "potenza": "oltre 400 CV",
+      "trasmissione": "Manuale",
+      "accelerazione": null,
+      "velocitaMax": "circa 257 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://www.autoblog.it/app/uploads/2022/08/bizzarrini-5300-gt-revival-corsa-100834817-h.jpeg",
+        "alt": "Bizzarrini 5300 GT Corsa Revival - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://cdn-redergo.avrean.net/?url=https://redergo-cms.topgearitalia.it/sites/default/files/2022-08/Bizzarrini-5300-GT-Corsa-Revival-8.jpg?w=1784&h=1004&output=jpg",
+        "alt": "Bizzarrini 5300 GT Corsa Revival",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn-redergo.avrean.net/?url=https://redergo-cms.topgearitalia.it/sites/default/files/2022-08/Bizzarrini-5300-GT-Corsa-Revival-9.jpg?w=1784&h=1004&output=jpg",
+        "alt": "Bizzarrini 5300 GT Corsa Revival",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn-redergo.avrean.net/?url=https://redergo-cms.topgearitalia.it/sites/default/files/2022-08/Bizzarrini-5300-GT-Corsa-Revival-10.jpg?w=1784&h=1004&output=jpg",
+        "alt": "Bizzarrini 5300 GT Corsa Revival",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in composito leggero su telaio tubolare in acciaio",
+      "Motore V8 5.3L da oltre 400 CV",
+      "Distribuzione dei pesi 50:50",
+      "Freni a disco su tutte le ruote",
+      "Sospensioni indipendenti posteriori secondo le specifiche Corsa di Giotto Bizzarrini",
+      "Roll-bar conforme alle normative FIA Appendix K",
+      "Produzione limitata a 24 esemplari",
+      "Costruzione artigianale basata sui disegni originali"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2022-03-01T00:00:00.000Z",
+    "updatedAt": "2022-03-01T00:00:00.000Z"
+  },
+  {
+    "nome": "GTA-R 290",
+    "costruttore": "6831d05b649e1a18a5f9b056",
+    "descrizione": "La Alfaholics GTA-R 290 è un restomod basato sull'Alfa Romeo Giulia Sprint GT, progettato per offrire prestazioni moderne mantenendo l'estetica classica. Dotata di un motore Twin Spark da 2.3 litri che eroga 240 CV, pesa solo 830 kg grazie all'uso estensivo di fibra di carbonio e componenti in titanio. La sospensione Ultraleggera in titanio e l'assetto regolabile garantiscono una guida precisa sia su strada che in pista. Gli interni combinano elementi retrò con comfort moderni, rendendo la GTA-R 290 un'icona tra i restomod.",
+    "anno": 2020,
+    "prezzo": 320000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "4 cilindri in linea 2.3L Twin Spark",
+      "potenza": "240 CV",
+      "trasmissione": "Manuale a 5 marce",
+      "accelerazione": null,
+      "velocitaMax": null
+    },
+    "immagini": [
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2024/05/alfaholics-gta-r-290-widebody-3-1920x0.webp",
+        "alt": "Alfaholics GTA-R 290 - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2024/05/alfaholics-gta-r-290-widebody-6-1920x0.webp",
+        "alt": "Alfaholics GTA-R 290",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2024/05/alfaholics-gta-r-290-widebody-1-1920x0.webp",
+        "alt": "Alfaholics GTA-R 290",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2024/05/alfaholics-gta-r-290-widebody-9-1920x0.webp",
+        "alt": "Alfaholics GTA-R 290",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio (cofano, portiere, bagagliaio)",
+      "Sospensioni Ultraleggera in titanio con geometria ottimizzata",
+      "Freni anteriori a 6 pistoncini con dischi ventilati da 300 mm",
+      "Differenziale autobloccante a dischi",
+      "Roll-bar T45 a 12 punti rivestito in pelle",
+      "Sedili Recaro 'Race' rivestiti in pelle italiana",
+      "Vetri laterali e posteriori alleggeriti",
+      "Ruote in lega da 15\" con pneumatici Yokohama 195/55"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2020-01-01T00:00:00.000Z",
+    "updatedAt": "2020-01-01T00:00:00.000Z"
+  }
+]

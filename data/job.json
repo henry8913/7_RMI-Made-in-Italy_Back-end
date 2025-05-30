@@ -1,0 +1,170 @@
+[
+  {
+    "titolo": "Responsabile Marketing Digitale",
+    "azienda": "RMI Made in Italy",
+    "descrizione": "Cerchiamo un professionista esperto in marketing digitale per guidare le strategie promozionali del nostro showroom online dedicato ai restomod italiani.",
+    "requisiti": [
+      "Esperienza comprovata in marketing digitale e strategie SEO/SEM",
+      "Conoscenza delle piattaforme di advertising online",
+      "Capacità di analisi dei dati e utilizzo di strumenti di analytics",
+      "Passione per il settore automobilistico e il design italiano"
+    ],
+    "tipo": "full-time",
+    "luogo": "Milano, Lombardia",
+    "remoto": true,
+    "salario": {
+      "min": 35000,
+      "max": 45000,
+      "valuta": "EUR"
+    },
+    "dataScadenza": "2025-06-30T00:00:00.000Z",
+    "attivo": true,
+    "candidature": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "titolo": "Consulente Vendite Auto Restomod",
+    "azienda": "RMI Made in Italy",
+    "descrizione": "Cerchiamo un Consulente Vendite appassionato di auto d'epoca e restomod per gestire le vendite del nostro showroom digitale. Il candidato ideale avrà esperienza nel settore automotive e una forte passione per il design italiano.",
+    "requisiti": [
+      "Esperienza nella vendita di auto di lusso o d'epoca",
+      "Conoscenza del mercato restomod italiano",
+      "Eccellenti capacità comunicative e relazionali",
+      "Passione per l'automobilismo classico e il design italiano"
+    ],
+    "tipo": "full-time",
+    "luogo": "Milano, Lombardia",
+    "remoto": true,
+    "salario": {
+      "min": 30000,
+      "max": 40000,
+      "valuta": "EUR"
+    },
+    "dataScadenza": "2025-06-30T00:00:00.000Z",
+    "attivo": true,
+    "candidature": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "titolo": "Specialista Customer Experience",
+    "azienda": "RMI Made in Italy",
+    "descrizione": "Stiamo cercando uno Specialista Customer Experience per garantire un servizio clienti eccellente nel nostro showroom digitale. Il candidato ideale avrà esperienza nella gestione delle relazioni con i clienti e una forte attenzione ai dettagli.",
+    "requisiti": [
+      "Esperienza nella gestione del servizio clienti",
+      "Ottime capacità comunicative e di problem-solving",
+      "Conoscenza delle piattaforme di CRM",
+      "Passione per il settore automobilistico e il design italiano"
+    ],
+    "tipo": "full-time",
+    "luogo": "Milano, Lombardia",
+    "remoto": true,
+    "salario": {
+      "min": 28000,
+      "max": 35000,
+      "valuta": "EUR"
+    },
+    "dataScadenza": "2025-06-30T00:00:00.000Z",
+    "attivo": true,
+    "candidature": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "titolo": "Responsabile Logistica e Consegne",
+    "azienda": "RMI Made in Italy",
+    "descrizione": "Cerchiamo un Responsabile Logistica e Consegne per coordinare le attività di consegna delle auto restomod ai clienti. Il candidato ideale avrà esperienza nella gestione logistica e una forte attenzione al cliente.",
+    "requisiti": [
+      "Esperienza nella gestione logistica e delle consegne",
+      "Capacità di coordinare team e fornitori",
+      "Ottime capacità organizzative e di problem-solving",
+      "Passione per il settore automobilistico e il design italiano"
+    ],
+    "tipo": "full-time",
+    "luogo": "Milano, Lombardia",
+    "remoto": false,
+    "salario": {
+      "min": 32000,
+      "max": 40000,
+      "valuta": "EUR"
+    },
+    "dataScadenza": "2025-06-30T00:00:00.000Z",
+    "attivo": true,
+    "candidature": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "titolo": "Responsabile Eventi e Collaborazioni",
+    "azienda": "RMI Made in Italy",
+    "descrizione": "Stiamo cercando un Responsabile Eventi e Collaborazioni per organizzare eventi esclusivi e gestire le partnership con costruttori e designer. Il candidato ideale avrà esperienza nell'organizzazione di eventi e una forte rete di contatti nel settore automobilistico.",
+    "requisiti": [
+      "Esperienza nell'organizzazione di eventi e gestione di partnership",
+      "Ottime capacità comunicative e relazionali",
+      "Conoscenza del settore automobilistico e del design italiano",
+      "Capacità di lavorare in team e gestire progetti complessi"
+    ],
+    "tipo": "full-time",
+    "luogo": "Milano, Lombardia",
+    "remoto": true,
+    "salario": {
+      "min": 35000,
+      "max": 45000,
+      "valuta": "EUR"
+    },
+    "dataScadenza": "2025-06-30T00:00:00.000Z",
+    "attivo": true,
+    "candidature": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "titolo": "Esperto in Personalizzazione Interni",
+    "azienda": "RMI Made in Italy",
+    "descrizione": "Cerchiamo un esperto nella personalizzazione degli interni delle auto, capace di lavorare con materiali pregiati e di realizzare design su misura mantenendo lo stile vintage.",
+    "requisiti": [
+      "Esperienza nella lavorazione di materiali come pelle, alcantara e legno",
+      "Capacità di progettare interni su misura",
+      "Attenzione ai dettagli e precisione",
+      "Passione per il design automobilistico"
+    ],
+    "tipo": "full-time",
+    "luogo": "Milano, Lombardia",
+    "remoto": false,
+    "salario": {
+      "min": 28000,
+      "max": 38000,
+      "valuta": "EUR"
+    },
+    "dataScadenza": "2025-06-30T00:00:00.000Z",
+    "attivo": true,
+    "candidature": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  },
+  {
+    "titolo": "Istruttore Corso di Guida per Auto d'Epoca",
+    "azienda": "RMI Made in Italy",
+    "descrizione": "Stiamo cercando un istruttore esperto per condurre corsi di guida specifici per auto d'epoca, migliorando la sicurezza e il piacere di guida dei nostri clienti.",
+    "requisiti": [
+      "Esperienza come istruttore di guida",
+      "Conoscenza delle tecniche di guida per auto d'epoca",
+      "Eccellenti capacità comunicative",
+      "Passione per l'automobilismo classico"
+    ],
+    "tipo": "part-time",
+    "luogo": "Milano, Lombardia",
+    "remoto": false,
+    "salario": {
+      "min": 20000,
+      "max": 30000,
+      "valuta": "EUR"
+    },
+    "dataScadenza": "2025-06-30T00:00:00.000Z",
+    "attivo": true,
+    "candidature": [],
+    "createdAt": "2025-05-25T00:00:00.000Z",
+    "updatedAt": "2025-05-25T00:00:00.000Z"
+  }
+]
