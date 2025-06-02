@@ -128,24 +128,13 @@ exports.googleAuthCallback = (req, res) => {
     // L'utente è già autenticato da passport a questo punto
     const token = generateToken(req.user._id);
     
-    res.status(200).json({
-      _id: req.user._id,
-      nome: req.user.nome,
-      email: req.user.email,
-      ruolo: req.user.ruolo,
-      authProvider: req.user.authProvider,
-      token
-    });
-    
-    // Nota: La precedente implementazione reindirizzava al frontend
-    // const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
-    // res.redirect(`${frontendUrl}/auth/google/success?token=${token}`);
+    // Reindirizza al frontend con il token
+    const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
+    res.redirect(`${frontendUrl}/auth/google/success?token=${token}`);
   } catch (error) {
     console.error('Errore durante il callback Google:', error);
-    res.status(500).json({ 
-      message: 'Errore durante l\'autenticazione con Google', 
-      error: error.message 
-    });
+    const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
+    res.redirect(`${frontendUrl}/login?error=auth_failed`);
   }
 };
 
