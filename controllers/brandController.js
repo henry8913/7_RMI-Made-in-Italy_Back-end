@@ -4,7 +4,6 @@ const Brand = require('../models/Brand');
 exports.getCostruttori = async (req, res) => {
   try {
     const costruttori = await Brand.find()
-      .select('nome logo sede')
       .sort({ nome: 1 });
       
     res.status(200).json(costruttori);
