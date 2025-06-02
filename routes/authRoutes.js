@@ -26,4 +26,9 @@ router.get('/admin', authenticateToken, checkRole('admin'), (req, res) => {
   res.status(200).json({ message: 'Accesso admin consentito', user: req.user });
 });
 
+// Rotte admin per la gestione degli utenti
+router.get('/users', authenticateToken, checkRole('admin'), authController.getUsers);
+router.put('/users/:id', authenticateToken, checkRole('admin'), authController.updateUser);
+router.delete('/users/:id', authenticateToken, checkRole('admin'), authController.deleteUser);
+
 module.exports = router;

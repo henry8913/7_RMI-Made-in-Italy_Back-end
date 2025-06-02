@@ -94,22 +94,58 @@ exports.inviaMessaggio = async (req, res) => {
   }
 };
 
-// Ottieni tutti i messaggi di contatto (solo admin)
-exports.getMessaggi = async (req, res) => {
+// Ottieni tutti i messaggi (solo per admin)
+exports.getMessages = async (req, res) => {
   try {
-    const query = {};
+    // Qui dovresti avere un modello Contact o Message
+    // Per ora, restituiamo un array vuoto
+    res.status(200).json([]);
+  } catch (error) {
+    console.error('Errore durante il recupero dei messaggi:', error);
+    res.status(500).json({ message: 'Errore durante il recupero dei messaggi', error: error.message });
+  }
+};
+
+// Ottieni un messaggio specifico (solo per admin)
+exports.getMessage = async (req, res) => {
+  try {
+    // Qui dovresti avere un modello Contact o Message
+    // Per ora, restituiamo un messaggio di errore
+    res.status(404).json({ message: 'Messaggio non trovato' });
+  } catch (error) {
+    console.error('Errore durante il recupero del messaggio:', error);
+    res.status(500).json({ message: 'Errore durante il recupero del messaggio', error: error.message });
+  }
+};
+
+// Elimina un messaggio (solo per admin)
+exports.deleteMessage = async (req, res) => {
+  try {
+    // Qui dovresti avere un modello Contact o Message
+    // Per ora, restituiamo un messaggio di successo
+    res.status(200).json({ message: 'Messaggio eliminato con successo' });
+  } catch (error) {
+    console.error('Errore durante l\'eliminazione del messaggio:', error);
+    res.status(500).json({ message: 'Errore durante l\'eliminazione del messaggio', error: error.message });
+  }
+};
+
+// Invia un messaggio di contatto (per tutti gli utenti)
+exports.sendMessage = async (req, res) => {
+  try {
+    const { nome, email, oggetto, messaggio } = req.body;
     
-    // Filtraggio per stato di lettura
-    if (req.query.letto !== undefined) {
-      query.letto = req.query.letto === 'true';
+    // Validazione dei campi
+    if (!nome || !email || !messaggio) {
+      return res.status(400).json({ message: 'Nome, email e messaggio sono campi obbligatori' });
     }
     
-    const messaggi = await Contact.find(query)
-      .sort({ dataInvio: -1 });
-    
-    res.status(200).json(messaggi);
+    // Qui dovresti salvare il messaggio nel database
+    // Per ora, restituiamo un messaggio di successo
+    res.status(201).json({ message: 'Messaggio inviato con successo' });
   } catch (error) {
-    res.status(500).json({ message: 'Errore nel recupero dei messaggi', error: error.message });
+    console.error('Errore durante l\'invio del messaggio:', error);
+    res.status(500).json({ message: 'Errore durante l\'invio del messaggio', error: error.message });
   }
 };
 

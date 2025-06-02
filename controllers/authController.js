@@ -162,3 +162,51 @@ exports.googleLogin = async (req, res) => {
     res.status(500).json({ message: 'Errore durante il login con Google', error: error.message });
   }
 };
+
+// Ottieni tutti gli utenti (solo per admin)
+exports.getUsers = async (req, res) => {
+  try {
+    const users = await User.find().select('-password');
+    res.status(200).json(users);
+  } catch (error) {
+    console.error('Errore durante il recupero degli utenti:', error);
+    res.status(500).json({ message: 'Errore durante il recupero degli utenti', error: error.message });
+  }
+};
+
+// Aggiorna un utente (solo per admin)
+exports.updateUser = async (req, res) => {
+  try {
+    const { nome, email, ruolo } = req.body;
+    const user = await User.findByIdAndUpdate(
+      req.params.id,
+      { nome, email, ruolo },
+      { new: true }
+    ).select('-password');
+    
+    if (!user) {
+      return res.status(404).json({ message: 'Utente non trovato' });
+    }
+    
+    res.status(200).json(user);
+  } catch (error) {
+    console.error('Errore durante l\'aggiornamento dell\'utente:', error);
+    res.status(500).json({ message: 'Errore durante l\'aggiornamento dell\'utente', error: error.message });
+  }
+};
+
+// Elimina un utente (solo per admin)
+exports.deleteUser = async (req, res) => {
+  try {
+    const user = await User.findByIdAndDelete(req.params.id);
+    
+    if (!user) {
+      return res.status(404).json({ message: 'Utente non trovato' });
+    }
+    
+    res.status(200).json({ message: 'Utente eliminato con successo' });
+  } catch (error) {
+    console.error('Errore durante l\'eliminazione dell\'utente:', error);
+    res.status(500).json({ message: 'Errore durante l\'eliminazione dell\'utente', error: error.message });
+  }
+};
