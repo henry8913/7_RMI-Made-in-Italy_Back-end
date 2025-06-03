@@ -97,9 +97,10 @@ exports.inviaMessaggio = async (req, res) => {
 // Ottieni tutti i messaggi (solo per admin)
 exports.getMessages = async (req, res) => {
   try {
-    // Qui dovresti avere un modello Contact o Message
-    // Per ora, restituiamo un array vuoto
-    res.status(200).json([]);
+    const messaggi = await Contact.find()
+      .sort({ dataInvio: -1 }); // Ordina per data di invio decrescente
+    
+    res.status(200).json(messaggi);
   } catch (error) {
     console.error('Errore durante il recupero dei messaggi:', error);
     res.status(500).json({ message: 'Errore durante il recupero dei messaggi', error: error.message });
@@ -109,9 +110,19 @@ exports.getMessages = async (req, res) => {
 // Ottieni un messaggio specifico (solo per admin)
 exports.getMessage = async (req, res) => {
   try {
-    // Qui dovresti avere un modello Contact o Message
-    // Per ora, restituiamo un messaggio di errore
-    res.status(404).json({ message: 'Messaggio non trovato' });
+    const messaggio = await Contact.findById(req.params.id);
+    
+    if (!messaggio) {
+      return res.status(404).json({ message: 'Messaggio non trovato' });
+    }
+    
+    // Aggiorna lo stato di lettura
+    if (!messaggio.letto) {
+      messaggio.letto = true;
+      await messaggio.save();
+    }
+    
+    res.status(200).json(messaggio);
   } catch (error) {
     console.error('Errore durante il recupero del messaggio:', error);
     res.status(500).json({ message: 'Errore durante il recupero del messaggio', error: error.message });
@@ -121,8 +132,14 @@ exports.getMessage = async (req, res) => {
 // Elimina un messaggio (solo per admin)
 exports.deleteMessage = async (req, res) => {
   try {
-    // Qui dovresti avere un modello Contact o Message
-    // Per ora, restituiamo un messaggio di successo
+    const messaggio = await Contact.findById(req.params.id);
+    
+    if (!messaggio) {
+      return res.status(404).json({ message: 'Messaggio non trovato' });
+    }
+    
+    await Contact.findByIdAndDelete(req.params.id);
+    
     res.status(200).json({ message: 'Messaggio eliminato con successo' });
   } catch (error) {
     console.error('Errore durante l\'eliminazione del messaggio:', error);
@@ -133,16 +150,27 @@ exports.deleteMessage = async (req, res) => {
 // Invia un messaggio di contatto (per tutti gli utenti)
 exports.sendMessage = async (req, res) => {
   try {
-    const { nome, email, oggetto, messaggio } = req.body;
+    const { nome, email, telefono, oggetto, messaggio } = req.body;
     
     // Validazione dei campi
     if (!nome || !email || !messaggio) {
       return res.status(400).json({ message: 'Nome, email e messaggio sono campi obbligatori' });
     }
     
-    // Qui dovresti salvare il messaggio nel database
-    // Per ora, restituiamo un messaggio di successo
-    res.status(201).json({ message: 'Messaggio inviato con successo' });
+    // Crea il messaggio di contatto nel database
+    const contatto = await Contact.create({
+      nome,
+      email,
+      telefono,
+      messaggio,
+      letto: false,
+      dataInvio: Date.now()
+    });
+    
+    res.status(201).json({ 
+      message: 'Messaggio inviato con successo',
+      id: contatto._id
+    });
   } catch (error) {
     console.error('Errore durante l\'invio del messaggio:', error);
     res.status(500).json({ message: 'Errore durante l\'invio del messaggio', error: error.message });
@@ -294,5 +322,36 @@ exports.aggiornaMessaggioConAllegati = async (req, res) => {
     });
   } catch (error) {
     res.status(400).json({ message: 'Errore durante l\'aggiornamento del messaggio', error: error.message });
+  }
+};
+
+// Richiedi informazioni su un modello specifico
+exports.requestModelInfo = async (req, res) => {
+  try {
+    const modelId = req.params.modelId;
+    const { nome, email, telefono, messaggio } = req.body;
+    
+    // Validazione dei campi
+    if (!nome || !email || !messaggio) {
+      return res.status(400).json({ message: 'Nome, email e messaggio sono campi obbligatori' });
+    }
+    
+    // Crea il messaggio di contatto nel database
+    const contatto = await Contact.create({
+      nome,
+      email,
+      telefono,
+      messaggio: `Richiesta informazioni per modello ID: ${modelId}\n\n${messaggio}`,
+      letto: false,
+      dataInvio: Date.now()
+    });
+    
+    res.status(201).json({ 
+      message: 'Richiesta di informazioni inviata con successo',
+      id: contatto._id
+    });
+  } catch (error) {
+    console.error('Errore durante l\'invio della richiesta di informazioni:', error);
+    res.status(500).json({ message: 'Errore durante l\'invio della richiesta di informazioni', error: error.message });
   }
 };

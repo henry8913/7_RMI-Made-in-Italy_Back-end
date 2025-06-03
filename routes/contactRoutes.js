@@ -5,6 +5,7 @@ const { authenticateToken, checkRole } = require('../middleware/authMiddleware')
 
 // Rotte pubbliche
 router.post('/send', contactController.sendMessage);
+router.post('/info-modello/:modelId', contactController.requestModelInfo);
 
 // Rotte admin
 router.get('/', authenticateToken, checkRole('admin'), contactController.getMessages);
