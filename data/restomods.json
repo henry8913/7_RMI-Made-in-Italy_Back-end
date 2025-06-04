@@ -874,5 +874,289 @@
     "inEvidenza": true,
     "createdAt": "2020-01-01T00:00:00.000Z",
     "updatedAt": "2020-01-01T00:00:00.000Z"
+  },
+  {
+    "nome": "Automobili Amos Safarista",
+    "costruttore": "6831a5de67d0b0b19a6513e9",
+    "descrizione": "La Lancia Delta Safarista è un restomod artigianale realizzato da Automobili Amos, basato sulla Delta HF Integrale, trasformata in un'auto da safari off-road di lusso. Prodotta in soli 10 esemplari, presenta una carrozzeria in fibra di carbonio, dettagli specifici per l'off-road e interni raffinati, mantenendo l'anima sportiva dell'originale ma con capacità fuoristradistiche.",
+    "anno": 2022,
+    "prezzo": 570000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "4 cilindri in linea 2.0L turbo",
+      "potenza": "330 CV",
+      "trasmissione": "Manuale a 5 marce",
+      "accelerazione": null,
+      "velocitaMax": "200 km/h (stimato)"
+    },
+    "immagini": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0178/5698/7236/files/038A4012_2048x2048.jpg?v=1695037613",
+        "alt": "Automobili Amos Safarista - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0178/5698/7236/files/038A3865_2048x2048.jpg?v=1695036685",
+        "alt": "Automobili Amos Safarista",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0178/5698/7236/files/038A3444_2048x2048.jpg?v=1695037558",
+        "alt": "Automobili Amos Safarista",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0178/5698/7236/files/038A5270_2048x2048.jpg?v=1695037735",
+        "alt": "Automobili Amos Safarista",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio",
+      "Produzione limitata a 10 esemplari",
+      "Assetto rialzato e pneumatici off-road",
+      "Interni personalizzati e materiali di lusso",
+      "Restomod artigianale con capacità fuoristradistiche"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2022-03-01T00:00:00.000Z",
+    "updatedAt": "2022-03-01T00:00:00.000Z"
+  },
+  {
+    "nome": "Kimera EVO38",
+    "costruttore": "6831a84f8fb7bceed47bf927",
+    "descrizione": "La Kimera EVO38 è l'evoluzione della EVO37, un restomod che rende omaggio alla leggendaria Lancia 037, ma con l'aggiunta della trazione integrale (AWD). Prodotta in soli 38 esemplari, combina il design iconico con tecnologie avanzate, offrendo prestazioni ancora più estreme e un'esperienza di guida esaltante su ogni superficie.",
+    "anno": 2024,
+    "prezzo": 750000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "4 cilindri in linea 2.15L twincharged",
+      "potenza": "600 CV",
+      "trasmissione": "Manuale a 6 marce o sequenziale a 6 marce",
+      "accelerazione": "0-100 km/h in circa 2.8 s",
+      "velocitaMax": "320 km/h (stimata)"
+    },
+    "immagini": [
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_0065e088dc1e405e8512ca21341670cd~mv2.jpg/v1/fill/w_1200,h_899,al_c,q_85,enc_avif,quality_auto/FOTO%2017.jpg",
+        "alt": "Kimera EVO38 - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_6444be39bdde4a53a75a9e60181f0428~mv2.jpg/v1/fill/w_2048,h_1040,al_c,q_90,enc_avif,quality_auto/___9H3A5310.jpg",
+        "alt": "Kimera EVO38",
+        "isPrimary": false
+      },
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_8109acdefef14995a4d9d4ee94b6a878~mv2.jpg/v1/fill/w_1024,h_540,fp_0.50_0.54,q_85,enc_avif,quality_auto/___IMG_7120-Large.jpg",
+        "alt": "Kimera EVO38",
+        "isPrimary": false
+      },
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_685bb8e8b2a643d6bf101d1465c5186c~mv2.jpg/v1/fill/w_1079,h_900,al_c,q_85,enc_avif,quality_auto/FOTO%2020.jpg",
+        "alt": "Kimera EVO38",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Trazione integrale (AWD)",
+      "Carrozzeria in fibra di carbonio",
+      "Produzione limitata a 38 esemplari",
+      "Motore potenziato a 600 CV",
+      "Sospensioni Öhlins avanzate",
+      "Impianto frenante Brembo ad alte prestazioni"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2024-02-21T00:00:00.000Z",
+    "updatedAt": "2024-02-21T00:00:00.000Z"
+  },
+  {
+    "nome": "Carrozzeria Touring Superleggera Arese RH95",
+    "costruttore": "6831bb299fc5e3cace3c29bd",
+    "descrizione": "La Touring Superleggera Arese RH95 è una supercar 'coachbuilt' basata su una Ferrari 488 GTB, ma completamente trasformata con una carrozzeria in fibra di carbonio dal design unico che richiama le forme classiche di Touring. Prodotta in soli 18 esemplari, è un omaggio alla tradizione delle fuoriserie italiane con un motore V8 biturbo in posizione centrale.",
+    "anno": 2021,
+    "prezzo": 1500000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V8 3.9L biturbo",
+      "potenza": "720 CV",
+      "trasmissione": "Automatica a doppia frizione a 7 marce",
+      "accelerazione": "0-100 km/h in 2,8 s",
+      "velocitaMax": "330 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2021/05/ARH95-exterior4.jpg",
+        "alt": "Touring Superleggera Arese RH95 - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2021/05/ARH95-intro09.jpg",
+        "alt": "Touring Superleggera Arese RH95 - Lato",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2021/05/ARH95-exterior5b.jpg",
+        "alt": "Touring Superleggera Arese RH95 - Posteriore",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2021/05/ARH95-exterior2-1.jpg",
+        "alt": "Touring Superleggera Arese RH95 - Interni",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria interamente in fibra di carbonio",
+      "Produzione limitata a 18 esemplari",
+      "Motore centrale V8 biturbo",
+      "Design aerodinamico ottimizzato",
+      "Interni personalizzabili e lussuosi",
+      "Basata su meccanica Ferrari 488 GTB"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2021-07-01T00:00:00.000Z",
+    "updatedAt": "2021-07-01T00:00:00.000Z"
+  },
+  {
+    "nome": "Kimera K39",
+    "costruttore": "6831a84f8fb7bceed47bf927",
+    "descrizione": "La Kimera K39 è un'\"Hyper Retromod\" pensata per le competizioni, in particolare la Pikes Peak, e rappresenta una creazione completamente nuova di Kimera Automobili, ispirata alla Lancia Beta Montecarlo Turbo Gruppo 5. È dotata di un telaio monoscocca estremamente leggero in fibra di carbonio e meccaniche di ultima generazione.",
+    "anno": 2024,
+    "prezzo": 1000000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V8 biturbo (derivato dal Ferrari 2.6L Quattrovalvole)",
+      "potenza": "Fino a 828 CV",
+      "trasmissione": "Non specificata (orientata alle competizioni)",
+      "accelerazione": null,
+      "velocitaMax": null
+    },
+    "immagini": [
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_dce0a00b296e4a3d85295c0f36c915e7~mv2.jpeg/v1/fill/w_1080,h_720,al_c,q_85,enc_avif,quality_auto/front%203_4.jpeg",
+        "alt": "Kimera K39 - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_f3ff7f19b1124187a02b2869de60cd5c~mv2.jpeg/v1/fill/w_961,h_720,al_c,q_85,enc_avif,quality_auto/back.jpeg",
+        "alt": "Kimera K39 - Vista posteriore",
+        "isPrimary": false
+      },
+      {
+        "url": "https://static.wixstatic.com/media/292dbb_c7b1f6ed00d84205a96ab6b7e0d685fd~mv2.png/v1/fill/w_2880,h_1462,al_c,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/004.png",
+        "alt": "Kimera K39 - Profilo laterale",
+        "isPrimary": false
+      },
+      {
+        "url": "https://static.wixstatic.com/media/f18e85_c41b544e4b524f14acf77f076155c114~mv2.jpg/v1/fill/w_1338,h_1002,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dettaglio2.jpg",
+        "alt": "Kimera K39 - Profilo laterale",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Telaio monoscocca in fibra di carbonio",
+      "Sospensioni pushrod",
+      "Potenziale sistema KERS",
+      "Obiettivo rapporto potenza-peso 1:1",
+      "Ispirata alla Lancia Beta Montecarlo Turbo Gruppo 5"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2024-06-24T00:00:00.000Z",
+    "updatedAt": "2024-06-24T00:00:00.000Z"
+  },
+  {
+    "nome": "Nardone Automobili Porsche 928 Restomod",
+    "costruttore": "6831cd202d6344911f2b3c56",
+    "descrizione": "La Porsche 928 Restomod di Nardone Automobili (realizzata con il supporto di Manifattura Automobili Torino - MAT) è una reinterpretazione moderna della Porsche 928, con linee rispettose dell'originale ma con significativi aggiornamenti in fibra di carbonio.",
+    "anno": 2022,
+    "prezzo": 480000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V8 potenziato",
+      "potenza": "400 CV",
+      "trasmissione": "Manuale a sei marce",
+      "accelerazione": null,
+      "velocitaMax": null
+    },
+    "immagini": [
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2022/06/porsche-928-nardone_01.webp",
+        "alt": "Nardone Automobili Porsche 928 - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2022/06/porsche-928-nardone_06.webp",
+        "alt": "Nardone Automobili Porsche 928 - Lato",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2022/06/porsche-928-nardone_17.webp",
+        "alt": "Nardone Automobili Porsche 928 - Interni",
+        "isPrimary": false
+      },
+      {
+        "url": "https://cdn.veloce.it/wp-content/uploads/webp/2022/06/porsche-928-nardone_05.webp",
+        "alt": "Nardone Automobili Porsche 928 - Interni",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria in fibra di carbonio",
+      "Sospensioni attive",
+      "Freni maggiorati",
+      "Servosterzo elettrico adattivo",
+      "Interni rifiniti in pelle Foglizzo e Alcantara"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2022-06-13T00:00:00.000Z",
+    "updatedAt": "2022-06-13T00:00:00.000Z"
+  },
+  {
+    "nome": "Carrozzeria Touring Superleggera Aero 3",
+    "costruttore": "6831bb299fc5e3cace3c29bd",
+    "descrizione": "L'Aero 3 è una supercar 'coachbuilt' di Carrozzeria Touring Superleggera, prodotta in soli 15 esemplari. Si ispira all'aerodinamica streamline degli anni '30 e '40, con una carrozzeria in fibra di carbonio che cela un motore V12 di derivazione Ferrari, garantendo prestazioni eccezionali e un'estetica mozzafiato.",
+    "anno": 2020,
+    "prezzo": 1500000,
+    "stato": "available",
+    "specifiche": {
+      "motore": "V12 6.5L aspirato",
+      "potenza": "789 CV",
+      "trasmissione": "Automatica a 7 marce",
+      "accelerazione": "0-100 km/h in 2,8 s",
+      "velocitaMax": "335 km/h"
+    },
+    "immagini": [
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2020/09/TA3-exterior4-2-1.jpg",
+        "alt": "Touring Superleggera Aero 3 - Vista frontale",
+        "isPrimary": true
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2020/09/TA3-exterior-slider3.jpg",
+        "alt": "Touring Superleggera Aero 3 - Lato",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2020/09/TA3-exterior-slider8.jpg",
+        "alt": "Touring Superleggera Aero 3 - Posteriore",
+        "isPrimary": false
+      },
+      {
+        "url": "https://www.touringsuperleggera.eu/wp-content/uploads/2020/09/TA3-interior-slider1.jpg",
+        "alt": "Touring Superleggera Aero 3 - Interni",
+        "isPrimary": false
+      }
+    ],
+    "caratteristiche": [
+      "Carrozzeria interamente in fibra di carbonio",
+      "Produzione limitata a 15 esemplari",
+      "Design ispirato all'era streamline",
+      "Motore V12 di derivazione Ferrari",
+      "Tail fin (pinna caudale) distintiva"
+    ],
+    "inEvidenza": true,
+    "createdAt": "2020-09-01T00:00:00.000Z",
+    "updatedAt": "2020-09-01T00:00:00.000Z"
   }
 ]

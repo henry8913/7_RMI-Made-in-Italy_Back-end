@@ -136,11 +136,10 @@ exports.deleteJob = async (req, res) => {
   }
 };
 
-// Invia candidatura per un lavoro (utenti autenticati)
+// Invia candidatura per un lavoro (pubblico)
 exports.inviaCandiatura = async (req, res) => {
   try {
-    const { cv, lettera } = req.body;
-    const userId = req.user._id;
+    const { nome, email, telefono, messaggio } = req.body;
     const jobId = req.params.id;
     
     const job = await Job.findOne({ _id: jobId, attivo: true });
@@ -149,20 +148,28 @@ exports.inviaCandiatura = async (req, res) => {
       return res.status(404).json({ message: 'Lavoro non trovato o non più disponibile' });
     }
     
-    // Verifica se l'utente ha già inviato una candidatura
+    // Verifica se l'email è già stata utilizzata per una candidatura
     const candidaturaEsistente = job.candidature.find(
-      candidatura => candidatura.candidato.toString() === userId.toString()
+      candidatura => candidatura.email === email
     );
     
     if (candidaturaEsistente) {
       return res.status(400).json({ message: 'Hai già inviato una candidatura per questo lavoro' });
     }
     
+    // Gestisci il file CV caricato
+    let cvUrl = '';
+    if (req.file) {
+      cvUrl = req.file.path; // Cloudinary URL
+    }
+    
     // Aggiungi la candidatura
     job.candidature.push({
-      candidato: userId,
-      cv,
-      lettera,
+      nome,
+      email,
+      telefono,
+      messaggio,
+      cv: cvUrl,
       stato: 'ricevuta',
       dataInvio: Date.now()
     });
@@ -171,6 +178,7 @@ exports.inviaCandiatura = async (req, res) => {
     
     res.status(201).json({ message: 'Candidatura inviata con successo' });
   } catch (error) {
+    console.error('Errore nell\'invio della candidatura:', error);
     res.status(400).json({ message: 'Errore nell\'invio della candidatura', error: error.message });
   }
 };
@@ -221,18 +229,22 @@ exports.aggiornaStatoCandidatura = async (req, res) => {
   }
 };
 
-// Ottieni le candidature dell'utente corrente
+// Ottieni le candidature dell'utente corrente tramite email
 exports.getUserCandidature = async (req, res) => {
   try {
-    const userId = req.user._id;
+    const { email } = req.query;
     
-    const jobs = await Job.find({ 'candidature.candidato': userId })
+    if (!email) {
+      return res.status(400).json({ message: 'Email richiesta per recuperare le candidature' });
+    }
+    
+    const jobs = await Job.find({ 'candidature.email': email })
       .populate('azienda', 'nome logo')
       .select('titolo tipo luogo candidature');
     
     const candidature = jobs.map(job => {
       const candidaturaUtente = job.candidature.find(
-        c => c.candidato.toString() === userId.toString()
+        c => c.email === email
       );
       
       return {
@@ -245,6 +257,8 @@ exports.getUserCandidature = async (req, res) => {
         },
         candidatura: {
           _id: candidaturaUtente._id,
+          nome: candidaturaUtente.nome,
+          email: candidaturaUtente.email,
           stato: candidaturaUtente.stato,
           dataInvio: candidaturaUtente.dataInvio
         }
@@ -253,6 +267,7 @@ exports.getUserCandidature = async (req, res) => {
     
     res.status(200).json(candidature);
   } catch (error) {
+    console.error('Errore nel recupero delle candidature:', error);
     res.status(500).json({ message: 'Errore nel recupero delle candidature', error: error.message });
   }
 };

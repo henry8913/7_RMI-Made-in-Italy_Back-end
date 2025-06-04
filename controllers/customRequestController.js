@@ -10,7 +10,36 @@ if (process.env.SENDGRID_API_KEY) {
 // Invia una nuova richiesta personalizzata
 exports.inviaRichiesta = async (req, res) => {
   try {
-    const { modelloBase, titolo, descrizione, budget, tempistiche, contatto } = req.body;
+    let modelloBase, titolo, descrizione, budget, tempistiche, contatto, allegati = [];
+    
+    // Verifica se la richiesta contiene file (multipart/form-data)
+    if (req.files && req.files.length > 0) {
+      // Se ci sono file, i dati JSON sono stati inviati come stringa nel campo 'data'
+      const requestData = JSON.parse(req.body.data);
+      
+      // Estrai i dati dal JSON parsato
+      modelloBase = requestData.modelloBase;
+      titolo = requestData.titolo;
+      descrizione = requestData.descrizione;
+      budget = requestData.budget;
+      tempistiche = requestData.tempistiche;
+      contatto = requestData.contatto;
+      
+      // Processa i file allegati
+      allegati = req.files.map(file => ({
+        url: file.path, // Assumendo che multer o un altro middleware abbia salvato il percorso del file
+        tipo: file.mimetype,
+        nome: file.originalname
+      }));
+    } else {
+      // Se non ci sono file, i dati sono nel corpo JSON standard
+      modelloBase = req.body.modelloBase;
+      titolo = req.body.titolo;
+      descrizione = req.body.descrizione;
+      budget = req.body.budget;
+      tempistiche = req.body.tempistiche;
+      contatto = req.body.contatto;
+    }
     
     const richiesta = await CustomRequest.create({
       utente: req.user.id,
@@ -20,6 +49,7 @@ exports.inviaRichiesta = async (req, res) => {
       budget,
       tempistiche,
       contatto,
+      allegati,
       stato: 'inviata'
     });
     
@@ -58,6 +88,7 @@ exports.inviaRichiesta = async (req, res) => {
       richiesta
     });
   } catch (error) {
+    console.error('Errore nell\'invio della richiesta:', error);
     res.status(400).json({ message: 'Errore nell\'invio della richiesta', error: error.message });
   }
 };

@@ -47,12 +47,17 @@ const jobSchema = new mongoose.Schema({
     default: true
   },
   candidature: [{
-    candidato: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User'
+    nome: {
+      type: String,
+      required: true
     },
+    email: {
+      type: String,
+      required: true
+    },
+    telefono: String,
+    messaggio: String,
     cv: String,
-    lettera: String,
     stato: {
       type: String,
       enum: ['ricevuta', 'in_revisione', 'colloquio', 'accettata', 'rifiutata'],
