@@ -6,7 +6,7 @@
 **RMI Made in Italy Back-end** è un'API RESTful robusta e scalabile che alimenta l'applicazione di gestione per auto d'epoca italiane restaurate e modernizzate. Questo server Express.js fornisce tutti i servizi necessari per gestire il catalogo prodotti, l'autenticazione utenti, gli ordini e molto altro. 
 
 <p align="center"> 
-  <video src="./img/cover_a.mp4" alt="Cover" width="100%" autoplay loop muted /> 
+  <img src="./img/cover_a.gif" alt="Cover" width="100%" /> 
 </p> 
 
 Questo progetto implementa un'architettura backend moderna basata su Node.js e MongoDB, con autenticazione JWT, integrazione di pagamenti e gestione completa delle risorse. Il codice è organizzato seguendo il pattern MVC per garantire manutenibilità e scalabilità. 
