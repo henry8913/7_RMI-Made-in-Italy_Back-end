@@ -35,6 +35,11 @@ const contactSchema = new mongoose.Schema({
   dataInvio: {
     type: Date,
     default: Date.now
+  },
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    default: null
   }
 });
 
@@ -82,7 +87,8 @@ exports.inviaMessaggio = async (req, res) => {
       messaggio,
       allegati,
       letto: false,
-      dataInvio: Date.now()
+      dataInvio: Date.now(),
+      user: req.user ? req.user.id : null // Associa il messaggio all'utente se autenticato
     });
     
     res.status(201).json({ 
@@ -164,7 +170,8 @@ exports.sendMessage = async (req, res) => {
       telefono,
       messaggio,
       letto: false,
-      dataInvio: Date.now()
+      dataInvio: Date.now(),
+      user: req.user ? req.user.id : null // Associa il messaggio all'utente se autenticato
     });
     
     res.status(201).json({ 
@@ -343,7 +350,8 @@ exports.requestModelInfo = async (req, res) => {
       telefono,
       messaggio: `Richiesta informazioni per modello ID: ${modelId}\n\n${messaggio}`,
       letto: false,
-      dataInvio: Date.now()
+      dataInvio: Date.now(),
+      user: req.user ? req.user.id : null
     });
     
     res.status(201).json({ 
@@ -353,5 +361,22 @@ exports.requestModelInfo = async (req, res) => {
   } catch (error) {
     console.error('Errore durante l\'invio della richiesta di informazioni:', error);
     res.status(500).json({ message: 'Errore durante l\'invio della richiesta di informazioni', error: error.message });
+  }
+};
+
+// Ottieni i messaggi di contatto dell'utente corrente
+exports.getUserMessages = async (req, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ message: 'Utente non autenticato' });
+    }
+    
+    const messaggi = await Contact.find({ user: req.user.id })
+      .sort({ dataInvio: -1 }); // Ordina per data di invio decrescente
+    
+    res.status(200).json(messaggi);
+  } catch (error) {
+    console.error('Errore durante il recupero dei messaggi dell\'utente:', error);
+    res.status(500).json({ message: 'Errore durante il recupero dei messaggi', error: error.message });
   }
 };
