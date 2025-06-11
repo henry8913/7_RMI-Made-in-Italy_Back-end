@@ -19,6 +19,7 @@ const packageRoutes = require('./routes/packageRoutes');
 const newsletterRoutes = require('./routes/newsletterRoutes');
 const contactRoutes = require('./routes/contactRoutes');
 const blogRoutes = require('./routes/blogRoutes');
+const orderRoutes = require('./routes/orderRoutes');
 
 require('./config/passport');
 
@@ -67,6 +68,7 @@ app.use('/api/packages', packageRoutes);
 app.use('/api/newsletter', newsletterRoutes);
 app.use('/api/contacts', contactRoutes);
 app.use('/api/blog', blogRoutes);
+app.use('/api/orders', orderRoutes);
 
 // Rotta per il webhook di Stripe (deve essere prima del middleware express.json)
 app.post('/api/packages/webhook', express.raw({type: 'application/json'}), (req, res) => {
@@ -98,6 +100,7 @@ app.get("/api", (req, res) => {
       { path: "/api/test-drive", description: "Prenotazione test drive" },
       { path: "/api/custom-requests", description: "Richieste personalizzate" },
       { path: "/api/jobs", description: "Offerte di lavoro" },
+      { path: "/api/orders", description: "Gestione ordini" },
       { path: "/api/packages", description: "Pacchetti extra e pagamenti" },
       { path: "/api/newsletter", description: "Gestione newsletter" },
       { path: "/api/contacts", description: "Contatti e upload file" },
